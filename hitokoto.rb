@@ -24,6 +24,8 @@ end
 
 query = File.open('query.txt'){_1.gets}.chomp
 
+puts query
+
 result_tweets = twitter_client.search(
 	query,
 	count: 100,
