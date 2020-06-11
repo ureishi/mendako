@@ -31,5 +31,6 @@ pictures = result_tweets.take(100).map{|tw|
 }
 a = pictures.flatten.uniq
 p a
-c = "wget #{a[0]}"
+file_name = 'hitokoto.jpg'
+c = "wget -O #{file_name} #{a[0]}"
 `#{c}`
