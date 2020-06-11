@@ -18,7 +18,7 @@ def twitter_client
 end
 
 query = '"今日のありがたカレンダー"'
-result_tweets = $twitter_client.search(
+result_tweets = twitter_client.search(
 	query, 
 	count: 100,
 	result_type: 'recent'
