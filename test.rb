@@ -19,7 +19,7 @@ end
 
 query = "from:aivrc リズム"
 since_id = nil
-result_tweets = $client.search(
+result_tweets = twitter_client.search(
 	query,
 	count: 100
 )
