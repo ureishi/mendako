@@ -8,7 +8,8 @@ ENVIRONMENT = {
 }
 
 WHITELIST_ID = [
-	754907745065709569,
+	754907745065709569,  #@aivrc
+	1213643085852246016, #@SUICAIVRC
 ]
 
 $client
@@ -41,5 +42,5 @@ puts image_uri
 
 file_name = 'hitokoto.jpg'
 # 試行回数3回 タイムアップ3秒 待機時間3秒
-command = "wget -t 3 -T 3 -w 3 -P public -O #{file_name} #{image_uri}"
-puts `#{command}`
+command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
+`#{command}`
