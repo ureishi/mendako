@@ -14,4 +14,4 @@ jobs:
       with:
         ruby-version: 2.7
     - run: |
-       public/test.rb > test.txt
+       public/test.rb > public/test.txt
