@@ -17,10 +17,10 @@ jobs:
     name: download image
     runs-on: ubuntu-latest
     steps:
+      - name: make directory
+        run: mkdir public
       - name: checkout
         uses: actions/checkout@v2
-      #- name: make directory
-      #  run: mkdir public
       #- name: make README.md
       #  run: echo "TEST" > public/README.md
           
