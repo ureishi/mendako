@@ -38,5 +38,5 @@ image_uri = result_tweets.take(100).map{|tw|
 
 file_name = 'hitokoto.jpg'
 # 試行回数3回 タイムアップ3秒 待機時間3秒
-command = "wget -t 3 -T 3 -w 3 -P ../public -O #{file_name} #{image_uri}"
+command = "wget -t 3 -T 3 -w 3 -P public -O #{file_name} #{image_uri}"
 `#{command}`
