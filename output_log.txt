@@ -1,2 +1,3 @@
-from:suicaivrc
-https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
+query: from:suicaivrc
+whitelist: [754907745065709569, 1213643085852246016]
+image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
