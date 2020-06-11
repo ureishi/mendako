@@ -1,10 +1,11 @@
 require 'twitter'
 
 ENVIRONMENT = {
-'TWITTER_CONSUMER_KEY' => ARGV[0],
-'TWITTER_CONSUMER_SECRET' => ARGV[1],
-'TWITTER_ACCESS_TOKEN' => ARGV[2],
-'TWITTER_ACCESS_TOKEN_SECRET' => ARGV[3]}
+	'TWITTER_CONSUMER_KEY' => ARGV[0],
+	'TWITTER_CONSUMER_SECRET' => ARGV[1],
+	'TWITTER_ACCESS_TOKEN' => ARGV[2],
+	'TWITTER_ACCESS_TOKEN_SECRET' => ARGV[3]
+}
 
 $client
 def twitter_client
@@ -16,16 +17,11 @@ def twitter_client
   }
 end
 
-twitter_client
-
-query = '今日のありがたカレンダー'
-since_id = nil
-result_tweets = $client.search(
-	query, count: 100,
-	result_type: 'recent',
-	#until: '2011-08-15',
-	#since_id: since_id,
-	#max_id: 
+query = '"今日のありがたカレンダー"'
+result_tweets = $twitter_client.search(
+	query, 
+	count: 100,
+	result_type: 'recent'
 )
 
 result_tweets.take(20).each_with_index{|tw, i|
