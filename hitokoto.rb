@@ -7,11 +7,6 @@ ENVIRONMENT = {
 	'TWITTER_ACCESS_TOKEN_SECRET' => ARGV[3]
 }
 
-WHITELIST_ID = [
-	754907745065709569,  #@aivrc
-	1213643085852246016, #@SUICAIVRC
-]
-
 $client
 def twitter_client
 	return $client ||= Twitter::REST::Client.new{|config|
@@ -23,8 +18,12 @@ def twitter_client
 end
 
 query = File.open('query.txt'){_1.gets}.chomp
+puts "query: #{query}"
 
-puts query
+whitelist = File.open("whitelist.txt"){|f|
+	f.each_line.map{|l| l.split.first.to_i}
+}
+puts "whitelist: #{whitelist}"
 
 result_tweets = twitter_client.search(
 	query,
@@ -34,13 +33,13 @@ result_tweets = twitter_client.search(
 
 image_uri = ''
 result_tweets.take(100).each{|tw|
-	if tw.media? and WHITELIST_ID.include? tw.user.id
+	if tw.media? and whitelist.include? tw.user.id
 		image_uri = "#{tw.media.first.media_uri_https}?format=jpg&name=orig"
 		break
 	end
 }
 
-puts image_uri
+puts "image_uri: #{image_uri}"
 
 if not image_uri.empty?
 	file_name = 'hitokoto.jpg'
