@@ -1,5 +1,0 @@
-total 12
-drwxr-xr-x 2 runner docker 4096 Jun 11 18:04 .
-drwxr-xr-x 5 runner docker 4096 Jun 11 18:04 ..
--rw-r--r-- 1 runner docker  889 Jun 11 18:04 test.rb
--rw-r--r-- 1 runner docker    0 Jun 11 18:04 url_list.txt
