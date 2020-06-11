@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: make directory, file
+      run: mkdir public
     - name: Set up Ruby 2.7
       uses: actions/setup-ruby@v1
       with:
@@ -16,3 +18,8 @@ jobs:
     - run: |
         touch public/test.txt
         public/test.rb > public/test.txt
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
