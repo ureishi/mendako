@@ -20,7 +20,7 @@ end
 query = File.open('query.txt'){_1.gets}.chomp
 puts "query: #{query}"
 
-whitelist = File.open("whitelist.txt"){|f|
+whitelist = File.open('whitelist.txt'){|f|
 	f.each_line.map{|l| l.split.first.to_i}
 }
 puts "whitelist: #{whitelist}"
