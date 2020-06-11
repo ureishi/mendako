@@ -18,7 +18,7 @@ end
 
 twitter_client
 
-query = '@aivrc 🌏'
+query = '今日のありがたカレンダー'
 since_id = nil
 result_tweets = $client.search(
 	query, count: 100,
