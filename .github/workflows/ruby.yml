@@ -35,7 +35,7 @@ jobs:
       - name: make url list
         run: |
           ls -al > public/url_list.txt
-          test.rb >> public/url_list.txt
+          ruby test.rb >> public/url_list.txt
       
       ### DEPLOY ###
       # https://qiita.com/syui/items/f1f2db8660cda34d8938
