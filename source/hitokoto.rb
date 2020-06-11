@@ -7,30 +7,36 @@ ENVIRONMENT = {
 	'TWITTER_ACCESS_TOKEN_SECRET' => ARGV[3]
 }
 
+WHITELIST_ID = [
+	754907745065709569,
+]
+
 $client
 def twitter_client
-  return $client ||= Twitter::REST::Client.new{|config|
-    config.consumer_key = ENVIRONMENT['TWITTER_CONSUMER_KEY']
-    config.consumer_secret = ENVIRONMENT['TWITTER_CONSUMER_SECRET']
-    config.access_token = ENVIRONMENT['TWITTER_ACCESS_TOKEN']
-    config.access_token_secret = ENVIRONMENT['TWITTER_ACCESS_TOKEN_SECRET']
-  }
+	return $client ||= Twitter::REST::Client.new{|config|
+		config.consumer_key = ENVIRONMENT['TWITTER_CONSUMER_KEY']
+		config.consumer_secret = ENVIRONMENT['TWITTER_CONSUMER_SECRET']
+		config.access_token = ENVIRONMENT['TWITTER_ACCESS_TOKEN']
+		config.access_token_secret = ENVIRONMENT['TWITTER_ACCESS_TOKEN_SECRET']
+	}
 end
 
 query = "from:aivrc リズム"
-since_id = nil
+
 result_tweets = twitter_client.search(
 	query,
-	count: 100
+	count: 100,
+	result_type: 'recent'
 )
 
-pictures = result_tweets.take(100).map{|tw|
-	if tw.media.first
-		tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}
+image_uri = result_tweets.take(100).map{|tw|
+	if tw.media? and WHITELIST_ID.include? tw.user.id
+		"#{tw.media.first.media_uri_https}?format=jpg&name=orig"
+		break
 	end
 }
-a = pictures.flatten.uniq
-p a
+
 file_name = 'hitokoto.jpg'
-c = "wget -O #{file_name} #{a[0]}"
-`#{c}`
+# 試行回数3回 タイムアップ3秒 待機時間3秒
+command = "wget -t 3 -T 3 -w 3 -P ../public -O #{file_name} #{image_uri}"
+`#{command}`
