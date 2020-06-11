@@ -42,7 +42,7 @@ result_tweets.take(100).each{|tw|
 
 puts image_uri
 
-if image_uri.empty?
+if not image_uri.empty?
 	file_name = 'hitokoto.jpg'
 	# 試行回数3回 タイムアップ3秒 待機時間3秒
 	command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
