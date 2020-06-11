@@ -1,1 +1,1 @@
-# hitokoto
+Today's hitokoto
