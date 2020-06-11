@@ -20,33 +20,23 @@ jobs:
       - name: checkout
         uses: actions/checkout@master
       
-      - name: make public directory
-        run: mkdir public
-  
-      #- name: make README.md
-      #  run: echo "TEST" > public/README.md
-          
-      - name: Set up Ruby 2.7
+      - name: set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7
       
-      - name: bundle
-        run: |
-          gem install twitter
+      - name: install gem twitter
+        run: gem install twitter
       
-      - name: test 1
+      - name: make public directory
+        run: mkdir public
+  
+      - name: make README.md
+        run: echo "Today's hitokoto" > public/README.md
+      
+      - name: run hitokoto.rb
         run: |
-          touch public/url_list.txt
-          cat README.md > public/url_list.txt
-     
-      - name: make url list
-        run: |
-          cp test.rb public/test.rb
-          cd public
-          ls -al > url_list.txt
-          ruby test.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}} > output_log.log
-          cd ../
+          ruby hitokoto.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}}
       
       ### DEPLOY ###
       # https://qiita.com/syui/items/f1f2db8660cda34d8938
