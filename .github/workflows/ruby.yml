@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
       
       - name: make public directory
         run: mkdir public
@@ -26,11 +26,11 @@ jobs:
       #- name: make README.md
       #  run: echo "TEST" > public/README.md
           
-      - uses: actions/checkout@master
       - name: Set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
-          version: 2.7
+          ruby-version: 2.7
+
       - name: download with ruby
         run: |
           touch public/url_list.txt
@@ -49,4 +49,4 @@ jobs:
         env:
           ACTIONS_DEPLOY_KEY: ${{secrets.ACTIONS_DEPLOY_KEY}}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: public 
+          PUBLISH_DIR: public
