@@ -22,6 +22,11 @@ jobs:
       #- name: make README.md
       #  run: echo "TEST" > public/README.md
           
+      - uses: actions/checkout@master
+      - name: Set up Ruby 2.7
+        uses: actions/setup-ruby@v1
+        with:
+          version: 2.7
       - name: download with ruby
         run: |
           touch public/url_list.txt
