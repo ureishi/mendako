@@ -8,7 +8,7 @@ ENVIRONMENT = {
 }
 
 WHITELIST_ID = [
-	754907745065709569,  #@aivrc
+	#754907745065709569,  #@aivrc
 	1213643085852246016, #@SUICAIVRC
 ]
 
@@ -22,7 +22,7 @@ def twitter_client
 	}
 end
 
-query = 'from:asdaaaivrcリズム'
+query = 'from:aivrc リズム'
 
 result_tweets = twitter_client.search(
 	query,
@@ -39,6 +39,7 @@ result_tweets.take(100).each{|tw|
 }
 
 puts image_uri
+
 if image_uri.empty?
 	file_name = 'hitokoto.jpg'
 	# 試行回数3回 タイムアップ3秒 待機時間3秒
