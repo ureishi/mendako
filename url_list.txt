@@ -1,9 +1,8 @@
 total 28
-drwxr-xr-x 5 runner docker 4096 Jun 11 12:20 .
-drwxr-xr-x 3 runner docker 4096 Jun 11 12:19 ..
-drwxr-xr-x 8 runner docker 4096 Jun 11 12:20 .git
-drwxr-xr-x 3 runner docker 4096 Jun 11 12:20 .github
--rw-r--r-- 1 runner docker   10 Jun 11 12:20 README.md
-drwxr-xr-x 2 runner docker 4096 Jun 11 12:20 public
--rw-r--r-- 1 runner docker   20 Jun 11 12:20 test.rb
-50
+drwxr-xr-x 5 runner docker 4096 Jun 11 15:55 .
+drwxr-xr-x 3 runner docker 4096 Jun 11 15:54 ..
+drwxr-xr-x 8 runner docker 4096 Jun 11 15:54 .git
+drwxr-xr-x 3 runner docker 4096 Jun 11 15:54 .github
+-rw-r--r-- 1 runner docker   10 Jun 11 15:54 README.md
+drwxr-xr-x 2 runner docker 4096 Jun 11 15:55 public
+-rw-r--r-- 1 runner docker  873 Jun 11 15:54 test.rb
