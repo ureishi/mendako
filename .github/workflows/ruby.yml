@@ -36,7 +36,8 @@ jobs:
       
       - name: run hitokoto.rb
         run: |
-          ruby hitokoto.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}}
+          touch output_log.txt
+          ruby hitokoto.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}} > output_log.txt
       
       ### DEPLOY ###
       # https://qiita.com/syui/items/f1f2db8660cda34d8938
