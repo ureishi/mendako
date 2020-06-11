@@ -30,8 +30,6 @@ jobs:
           echo https://www.jma.go.jp/jp/yoho/images/000_temp_today.png       >> public/url_list.txt
           echo https://www.jma.go.jp/jp/yoho/images/000_temp_tomorrow.png    >> public/url_list.txt
           echo https://www.jma.go.jp/jp/warn/imgs/000/99.png                 >> public/url_list.txt
-      - name: sleep for rand(0..120) seconds
-        run: sleep $((RANDOM%120))s
       - name: download image
         # 試行回数3回 タイムアップ3秒 待機時間3秒
         run: wget -t 3 -T 3 -w 3 -P public -i public/url_list.txt
