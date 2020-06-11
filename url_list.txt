@@ -1,0 +1,4 @@
+total 12
+drwxr-xr-x 3 runner docker 4096 Jun 11 09:14 .
+drwxr-xr-x 3 runner docker 4096 Jun 11 09:14 ..
+drwxr-xr-x 2 runner docker 4096 Jun 11 09:14 public
