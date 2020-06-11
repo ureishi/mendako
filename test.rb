@@ -16,14 +16,9 @@ def twitter_client
   }
 end
 
-def index
-  $client = twitter_client
-  @tweets = client.home_timeline
-end
-
 twitter_client
 
-query = '@aivrc'
+query = '@aivrc 🌏'
 since_id = nil
 result_tweets = $client.search(
 	query, count: 100,
@@ -33,6 +28,6 @@ result_tweets = $client.search(
 	#max_id: 
 )
 
-puts result_tweets.take(10).each_with_index{|tw, i|
+result_tweets.take(20).each_with_index{|tw, i|
 	puts "#{i}: @#{tw.user.screen_name}: #{tw.full_text}"
 }
