@@ -1,6 +1,6 @@
 require 'twitter'
 
-env = {
+ENV = {
 'TWITTER_CONSUMER_KEY' => ARGV[0],
 'TWITTER_CONSUMER_SECRET' => ARGV[1],
 'TWITTER_ACCESS_TOKEN' => ARGV[2],
@@ -9,10 +9,10 @@ env = {
 $client
 def twitter_client
   return $client ||= Twitter::REST::Client.new{|config|
-    config.consumer_key = env["TWITTER_CONSUMER_KEY"]
-    config.consumer_secret = env["TWITTER_CONSUMER_SECRET"]
-    config.access_token = env["TWITTER_ACCESS_TOKEN"]
-    config.access_token_secret = env["TWITTER_ACCESS_TOKEN_SECRET"]
+    config.consumer_key = ENV['TWITTER_CONSUMER_KEY']
+    config.consumer_secret = ENV['TWITTER_CONSUMER_SECRET']
+    config.access_token = ENV['TWITTER_ACCESS_TOKEN']
+    config.access_token_secret = ENV['TWITTER_ACCESS_TOKEN_SECRET']
   }
 end
 
