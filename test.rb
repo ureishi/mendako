@@ -17,13 +17,19 @@ def twitter_client
   }
 end
 
-query = '"今日のありがたカレンダー"'
-result_tweets = twitter_client.search(
-	query, 
-	count: 100,
-	result_type: 'recent'
+query = "from:aivrc リズム"
+since_id = nil
+result_tweets = $client.search(
+	query,
+	count: 100
 )
 
-result_tweets.take(20).each_with_index{|tw, i|
-	puts "#{i}: @#{tw.user.screen_name}: #{tw.full_text}"
+pictures = result_tweets.take(100).map{|tw|
+	if tw.media.first
+		tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}
+	end
 }
+a = pictures.flatten.uniq
+p a
+c = "wget #{a[0]}"
+`#{c}`
