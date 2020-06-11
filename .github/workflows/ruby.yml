@@ -33,8 +33,6 @@ jobs:
       
       - name: bundle
         run: |
-          gem install bundler --no-document
-          bundle install
           gem install twitter
       
       - name: test 1
