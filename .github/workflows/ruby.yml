@@ -23,7 +23,7 @@ jobs:
         run: echo "TEST" > public/README.md
           
       - name: download with ruby
-        uses: ureishi/hitokoto@master
+        uses: actions/checkout@master
           
       - name: make url list
         run: |
