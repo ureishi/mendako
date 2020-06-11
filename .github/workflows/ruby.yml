@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - name: make directory
@@ -26,9 +26,10 @@ jobs:
       - name: make README.md
         run: echo "TEST" > public/README.md
           
-      - run:  touch public/url_list.txt
       - name: download with ruby
-      - run: cat README.md > public/url_list.txt
+        run: |
+          touch public/url_list.txt
+          cat README.md > public/url_list.txt
      
       - name: make url list
         run: |
