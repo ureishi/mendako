@@ -29,9 +29,10 @@ result_tweets = twitter_client.search(
 	result_type: 'recent'
 )
 
-image_uri = result_tweets.take(100).map{|tw|
+image_uri = ''
+result_tweets.take(100).each{|tw|
 	if tw.media? and WHITELIST_ID.include? tw.user.id
-		"#{tw.media.first.media_uri_https}?format=jpg&name=orig"
+		image_uri = "#{tw.media.first.media_uri_https}?format=jpg&name=orig"
 		break
 	end
 }
