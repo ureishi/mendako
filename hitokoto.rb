@@ -8,7 +8,7 @@ ENVIRONMENT = {
 }
 
 WHITELIST_ID = [
-	#754907745065709569,  #@aivrc
+	754907745065709569,  #@aivrc
 	1213643085852246016, #@SUICAIVRC
 ]
 
@@ -22,7 +22,7 @@ def twitter_client
 	}
 end
 
-query = 'from:aivrc リズム'
+query = File.open('query.txt'){_1.gets}.chomp
 
 result_tweets = twitter_client.search(
 	query,
