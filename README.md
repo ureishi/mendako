@@ -1,2 +1,1 @@
-Today's hitokoto
-[URL](https://ureishi.github.io/hitokoto/hitokoto.jpg)
+Today's hitokoto (https://ureishi.github.io/hitokoto/hitokoto.jpg)
