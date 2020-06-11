@@ -17,8 +17,6 @@ jobs:
     name: download image
     runs-on: ubuntu-latest
     steps:
-      - name: make directory
-        run: mkdir public
       - name: checkout
         uses: actions/checkout@v2
       #- name: make README.md
@@ -32,6 +30,7 @@ jobs:
       - name: make url list
         run: |
           ls -al > public/url_list.txt
+          test.rb >> public/url_list.txt
       
       ### DEPLOY ###
       - name: deploy
