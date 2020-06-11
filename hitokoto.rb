@@ -22,7 +22,7 @@ def twitter_client
 	}
 end
 
-query = 'from:aivrc リズム'
+query = 'from:asdaaaivrcリズム'
 
 result_tweets = twitter_client.search(
 	query,
@@ -39,8 +39,9 @@ result_tweets.take(100).each{|tw|
 }
 
 puts image_uri
-
-file_name = 'hitokoto.jpg'
-# 試行回数3回 タイムアップ3秒 待機時間3秒
-command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
-`#{command}`
+if image_uri.empty?
+	file_name = 'hitokoto.jpg'
+	# 試行回数3回 タイムアップ3秒 待機時間3秒
+	command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
+	`#{command}`
+end
