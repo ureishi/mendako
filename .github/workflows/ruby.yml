@@ -1,25 +1,47 @@
 name: Ruby
 on:
+  schedule:
+    # 気象庁が発表している更新のタイミング
+    #  5, 11, 17 (JST, UTC+09)
+    # 更新が確認された時間(上記を含む)
+    #  5,  6,  7,  8,  9, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23 (JST, UTC+09)
+    # 20, 21, 22, 23,  0,  1,  2,  3,  4,  8,  9, 10, 11, 12, 13, 14 (GMT)
+    # デーモンプロセス設定 (世界標準時)
+    - cron: 10 0-15,20-23 * * *
   push:
     branches:
       - master
-    
+
 jobs:
-  build:
+  download-image:
+    name: download image
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: make directory, file
-      run: mkdir public
-    - name: Set up Ruby 2.7
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-    - run: |
-        touch public/test.txt
-        public/test.rb > public/test.txt
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+      - name: make directory, file
+        run: mkdir public
+      - name: make README.md
+        run: echo source https://www.jma.go.jp/jp/yoho/ - Japan Meteorological Agency > public/README.md
+      - name: make url list
+        run: |
+          touch public/url_list.txt
+          echo https://www.jma.go.jp/jp/yoho/images/000_telop_today.png      >> public/url_list.txt
+          echo https://www.jma.go.jp/jp/yoho/images/000_telop_tomorrow.png   >> public/url_list.txt
+          echo https://www.jma.go.jp/jp/yoho/images/000_telop_aftomorrow.png >> public/url_list.txt
+          echo https://www.jma.go.jp/jp/yoho/images/000_temp_today.png       >> public/url_list.txt
+          echo https://www.jma.go.jp/jp/yoho/images/000_temp_tomorrow.png    >> public/url_list.txt
+          echo https://www.jma.go.jp/jp/warn/imgs/000/99.png                 >> public/url_list.txt
+      - name: sleep for rand(0..120) seconds
+        run: sleep $((RANDOM%120))s
+      - name: download image
+        # 試行回数3回 タイムアップ3秒 待機時間3秒
+        run: wget -t 3 -T 3 -w 3 -P public -i public/url_list.txt
+      - name: delete file
+        run: rm public/url_list.txt
+      - name: deploy
+        # https://qiita.com/syui/items/f1f2db8660cda34d8938
+        # https://github.com/peaceiris/actions-gh-pages
+        uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          ACTIONS_DEPLOY_KEY: ${{secrets.ACTIONS_DEPLOY_KEY}}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: public
