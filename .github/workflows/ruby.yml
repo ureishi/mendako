@@ -22,12 +22,12 @@ jobs:
       - name: make README.md
         run: echo "TEST" > public/README.md
           
+      - run:  touch public/url_list.txt
       - name: download with ruby
         uses: actions/checkout@master
           
       - name: make url list
         run: |
-          touch public/url_list.txt
           ls -al >> public/url_list.txt
       ### DEPLOY ###
       - name: deploy
