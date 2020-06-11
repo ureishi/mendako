@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: make directory
+      #- name: make directory
       #  run: mkdir public
       #- name: make README.md
       #  run: echo "TEST" > public/README.md
