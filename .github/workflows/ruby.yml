@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v1
         with:
           fetch-depth: 1
-      - run: cat README.md > public/README.md
+      - run: cat README.md > public/url_list.txt
      
       - name: make url list
         run: |
