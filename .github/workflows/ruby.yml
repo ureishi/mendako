@@ -20,9 +20,9 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: make directory
-        run: mkdir public
-      - name: make README.md
-        run: echo "TEST" > public/README.md
+      #  run: mkdir public
+      #- name: make README.md
+      #  run: echo "TEST" > public/README.md
           
       - name: download with ruby
         run: |
