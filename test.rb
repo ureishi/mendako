@@ -1,1 +1,1 @@
-puts "test"
+puts ARGV[0].length
