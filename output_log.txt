@@ -1,4 +1,4 @@
-time: 2020-06-12 15:54:59 +0900
+time: 2020-06-12 16:03:18 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
 
@@ -6,20 +6,20 @@ screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
 full_text:
-RT @chokakuji: ①超覚寺
-②広島県広島市中区八丁堀
-③２０２０年６月１２日掲示
-④生まれ生かされ活きる生活✨
+RTテスト
 
-#仏教
-#浄土真宗
-#真宗大谷派
-#広島県広島市
-#超覚寺
-#伝道掲示板
-#お寺の掲示板
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @takimotobukodo: #お寺の掲示板　#仏道
 
-#新型コロナウイルス https://t.co/AbvlxzL9Ql
+幸せは自分がしあわせ
+と思う事から始まる
+
+https://t.co/Y3bFNCJajy https://t.co/xa5O76ougq
+media:
+https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -745,11 +745,4 @@ RT @ukraine_zin: もう今となってはありえない光景だね
 media:
 https://pbs.twimg.com/ext_tw_video_thumb/1269506446510587904/pu/img/YYNDHqipFYJcVMei.jpg?format=jpg&name=orig
 
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-なんか無言勢が周りで増えている…
-すいかいと話すなとお触れでも出ているかのような…？そんな気分lol
-
-image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
