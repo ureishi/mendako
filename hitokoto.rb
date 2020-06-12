@@ -40,7 +40,8 @@ result_tweets.take(100).each{|tw|
 	puts "screen_name: #{tw.user.screen_name}"
 	puts "name: #{tw.user.name}"
 	puts "id: #{tw.user.id}"
-	puts "media:\n#{tw.media.map{"#{_1}?format=jpg&name=orig"}.join "\n"}"
+	puts "full_text: #{tw.full_text}"
+	puts "media:\n#{tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}.join "\n"}"
 	puts
 }
 
