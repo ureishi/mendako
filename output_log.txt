@@ -3,6 +3,21 @@ whitelist: [754907745065709569, 1213643085852246016]
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
+full_text: 買わなきゃ（買ってる）
+media:
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text: RT @Yueou: 【オリジナル3Dモデル】東狐千春—ちはるちゃん 1.1 | 仮想VoidCat 
+千春ちゃん1.1アップデートしました！いろいろ原因でめっちゃ遅刻したすみませんでした！
+スク水セットと新しい表情追加しました！
+報告された問題も修正… https://t.co/3O68d2qmZ1
+media:
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
 full_text: @s1902914 画像見る限りではModが原因…という気もします。
 media:
 
@@ -731,21 +746,5 @@ name: 🌸SUICAI🦊
 id: 1213643085852246016
 full_text: おはようございます
 media:
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text: RT @Kamiyanagi: #SovietRepublic の20%オフセール来てます。6/9まで。
-早期アクセスゲームで元々安く、めったにセールにならないのでこの機会に是非赤いシムシティをプレイしてみてはいかがでしょうか。
-
-https://t.co/WzXx9pbbNK
-media:
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text: RT @_by4co: チー牛きつね https://t.co/EjZ6zhlPX0
-media:
-https://pbs.twimg.com/media/EZrXNDEVcAAcgX5.jpg?format=jpg&name=orig
 
 image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
