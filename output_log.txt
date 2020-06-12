@@ -1,6 +1,26 @@
-time: 2020-06-12 22:12:46 +0900
+time: 2020-06-12 23:13:02 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @monbetsuji: 今日も今日とて @ilcuoredate さんにてお食事です✨
+
+イチボのステーキが内モモ肉になっていましたが、赤身感が増してめちゃくちゃ美味かったです🐂
+
+サイドにあるワサビとトリュフ塩を付けるとうま味倍増‼️マッシュポテトとア… https://t.co/vjRsI5M6oW
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @monbetsuji: あとテイクアウトできるワタリガニのトマトクリームパスタ‼️ @j0s9watari119 ではないです。
+
+カニのお出汁がすごいので、マジで食べてほしい✨🦀 https://t.co/hQJgZkyTYY
+media:
+https://pbs.twimg.com/media/EaUMJ9PU4AAX_3c.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -732,18 +752,4 @@ full_text:
 いまおきた
 昼じゃん？
 
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-おやすみ～
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-人物に対して幻を見てるから、彼らは人生に苦しみ続ける。
-
-という事にしておくと気が楽ではある。なお自分棚上げ。
-
-image_uri: https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EaUMJ9PU4AAX_3c.jpg?format=jpg&name=orig
