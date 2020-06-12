@@ -1,6 +1,31 @@
-time: 2020-06-12 15:12:59 +0900
+time: 2020-06-12 15:54:59 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @chokakuji: ①超覚寺
+②広島県広島市中区八丁堀
+③２０２０年６月１２日掲示
+④生まれ生かされ活きる生活✨
+
+#仏教
+#浄土真宗
+#真宗大谷派
+#広島県広島市
+#超覚寺
+#伝道掲示板
+#お寺の掲示板
+
+#新型コロナウイルス https://t.co/AbvlxzL9Ql
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+テスト https://t.co/cKSxNNOzMu
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -726,24 +751,5 @@ id: 1213643085852246016
 full_text:
 なんか無言勢が周りで増えている…
 すいかいと話すなとお触れでも出ているかのような…？そんな気分lol
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-RT @goldentakasan: お釈迦様の足の裏 https://t.co/8erPk8vfcB
-media:
-https://pbs.twimg.com/media/EZ5SuP_UMAMdNgw.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ5SvZ_UMAERabi.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ5SwXUUcAc6xe8.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ5SxM2U0AIj5mq.jpg?format=jpg&name=orig
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-RT @vrlife_magazine: 【バーチャルライフマガジン】みんなで見れる・投稿できる。視聴者投稿型テレビ、VRC放送局、開局！ https://t.co/hJT0NVEfFM @vrc_tv https://t.co/5Wy5fPYQto
-media:
-https://pbs.twimg.com/ext_tw_video_thumb/1267395681804677120/pu/img/t9rv7TphMoe5paMo.jpg?format=jpg&name=orig
 
 image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
