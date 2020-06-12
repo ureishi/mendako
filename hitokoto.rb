@@ -27,7 +27,7 @@ whitelist = File.open('whitelist.txt'){|f|
 }
 puts "whitelist: #{whitelist}"
 
-n = 10
+n = 100
 
 result_tweets = twitter_client.search(
 	query,
