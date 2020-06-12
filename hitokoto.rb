@@ -31,6 +31,8 @@ result_tweets = twitter_client.search(
 	result_type: 'recent'
 )
 
+puts
+
 image_uri = ''
 result_tweets.take(100).each{|tw|
 	if tw.media? and whitelist.include? tw.user.id and image_uri.empty?
@@ -40,8 +42,8 @@ result_tweets.take(100).each{|tw|
 	puts "screen_name: #{tw.user.screen_name}"
 	puts "name: #{tw.user.name}"
 	puts "id: #{tw.user.id}"
-	puts "full_text: #{tw.full_text}"
-	puts "media:\n#{tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}.join "\n"}"
+	puts "full_text:\n#{tw.full_text}"
+	puts "media:\n#{tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}.join "\n"}" if tw.media?
 	puts
 }
 
