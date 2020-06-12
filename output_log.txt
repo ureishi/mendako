@@ -1,6 +1,19 @@
-time: 2020-06-12 17:12:57 +0900
+time: 2020-06-12 17:33:53 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @takimotobukodo: #お寺の掲示板　#仏道
+
+幸せは自分がしあわせ
+と思う事から始まる
+
+https://t.co/Y3bFNCJajy https://t.co/xa5O76ougq
+media:
+https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -733,10 +746,4 @@ full_text:
 
 という事にしておくと気が楽ではある。なお自分棚上げ。
 
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-特に災難が発生している訳ではないし、とりあえず現状維持で良いか〜。
-
-image_uri: https://pbs.twimg.com/media/EaSzDhEVAAAvz7I.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
