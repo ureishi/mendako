@@ -1,6 +1,24 @@
-time: 2020-06-12 16:12:58 +0900
+time: 2020-06-12 16:54:53 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RTの稼働テスト
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @otera2020: 今年も７月１日から「輝け！掲示板大賞２０２０」が始まります。傑作選の５日目。本日は彼岸寺賞を受賞した蓮光寺さん（東京都）の作品です。このような時期だからこそ、「わかっている」という勘違いには気をつけたいものです。 https://t.co/rK9un6jMir
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+これ、すいかいさんのRTが自動ではめ込まれるんです
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -17,19 +35,6 @@ name: 🌸SUICAI🦊
 id: 1213643085852246016
 full_text:
 RTテスト
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-RT @takimotobukodo: #お寺の掲示板　#仏道
-
-幸せは自分がしあわせ
-と思う事から始まる
-
-https://t.co/Y3bFNCJajy https://t.co/xa5O76ougq
-media:
-https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -733,17 +738,5 @@ name: 🌸SUICAI🦊
 id: 1213643085852246016
 full_text:
 特に災難が発生している訳ではないし、とりあえず現状維持で良いか〜。
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-正見（しょうけん）というのは仏教での基本的なことの1つとされてるが、これが全くできない状態に今あるので難儀してる。
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-序盤に掛かってるモスクワ防衛軍の歌は好きな曲です
 
 image_uri: https://pbs.twimg.com/media/EaSzDhEVAAAvz7I.jpg?format=jpg&name=orig
