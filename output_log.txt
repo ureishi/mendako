@@ -1,5 +1,26 @@
+time: 2020-06-12 06:00:33 +0000
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+ちょっと目的が分からないし気味が悪いですね・・・
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+海外勢を絞っても日本人セクハラおじさんは減らせないぞ
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @tsubasa9317: ゆる募
+
+すずらん集会場が海外勢に占拠されない対策案。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -724,45 +745,5 @@ full_text:
 RT @vrlife_magazine: 【バーチャルライフマガジン】みんなで見れる・投稿できる。視聴者投稿型テレビ、VRC放送局、開局！ https://t.co/hJT0NVEfFM @vrc_tv https://t.co/5Wy5fPYQto
 media:
 https://pbs.twimg.com/ext_tw_video_thumb/1267395681804677120/pu/img/t9rv7TphMoe5paMo.jpg?format=jpg&name=orig
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-最近のVRC
-
-1.ミーシェちゃん集会？
-2 bdさんかわいい
-3.無言勢のふりをする、しおんくんとうれいしさん
-4.じゅじゅさんかわいい https://t.co/HZNxb6xtPI
-media:
-https://pbs.twimg.com/media/EZ4xJIcUYAAw40K.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ4xMLyU8AAKzdz.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ4xPT_VAAEGtFW.jpg?format=jpg&name=orig
-https://pbs.twimg.com/media/EZ4xVq_UYAAx3sP.jpg?format=jpg&name=orig
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-RT @Hoshi_Lime: 【お知らせ】次回の授乳Cafeからシステムが大幅に変更になります。
-
-・インスタンスは２つまで
-・インスタンスの上限を80→40人
-・Friend+ → Friend Only
-・集合写真は16時50分の一回
-
-来て下さっている方… https://t.co/RHL1pviLoa
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-本日のすいかい共和国 #sovietrepublic
-
-1.使わなくなった火力発電所を爆破！
-2.油田まで車だと遠い、しかし需要は化学工場×4程度...
-   なので単行貨物列車ができました。電気は腐るほどある。
-3.空気がきれい… https://t.co/qNbWkOdDH6
 
 image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
