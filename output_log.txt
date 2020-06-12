@@ -5,6 +5,21 @@ screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
 full_text:
+めし
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @mukawa00houjouj: 漁師のご門徒さんからいただいた【ヤドガニの爪】
+「毛ガニよりも美味しいっていう人も居るよ」と聞いて食べてみるとめちゃくちゃウマイ‼️
+味の系統は毛ガニだけど毛ガニよりも身も味も締まっていて凝縮されているような感じ🦀
+捕れる数が少な… https://t.co/OwVSSiVurt
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
 買わなきゃ（買ってる）
 
 screen_name: SUICAIVRC
@@ -749,17 +764,5 @@ full_text:
 2.油田まで車だと遠い、しかし需要は化学工場×4程度...
    なので単行貨物列車ができました。電気は腐るほどある。
 3.空気がきれい… https://t.co/qNbWkOdDH6
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-@VRC_OCEAN2 おはよう～
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-おはようございます
 
 image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
