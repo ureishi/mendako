@@ -42,6 +42,9 @@ jobs:
           rm whitelist.txt
           cd ../
       
+      - name: cname
+        run: echo vrchat-hitokoto.com > public/CNAME
+        
       ### DEPLOY ###
       # https://qiita.com/syui/items/f1f2db8660cda34d8938
       # https://github.com/peaceiris/actions-gh-pages
