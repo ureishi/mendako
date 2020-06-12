@@ -17,6 +17,8 @@ def twitter_client
 	}
 end
 
+puts "time: #{Time.now}"
+
 query = File.open('query.txt'){_1.gets}.chomp
 puts "query: #{query}"
 
