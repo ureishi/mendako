@@ -1,6 +1,16 @@
-time: 2020-06-12 16:03:18 +0900
+time: 2020-06-12 16:12:58 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+これをこうして・・・こうじゃ！
+
+（画像は実験中のものです） https://t.co/zn07o9PjXy
+media:
+https://pbs.twimg.com/media/EaSzDhEVAAAvz7I.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -736,13 +746,4 @@ id: 1213643085852246016
 full_text:
 序盤に掛かってるモスクワ防衛軍の歌は好きな曲です
 
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-RT @ukraine_zin: もう今となってはありえない光景だね
-アメリカ軍が赤の広場を行進するという胸熱な光景… https://t.co/OSC1ElfEEB
-media:
-https://pbs.twimg.com/ext_tw_video_thumb/1269506446510587904/pu/img/YYNDHqipFYJcVMei.jpg?format=jpg&name=orig
-
-image_uri: https://pbs.twimg.com/media/EaCMDyOU8AEILEI.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EaSzDhEVAAAvz7I.jpg?format=jpg&name=orig
