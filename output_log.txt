@@ -1,6 +1,29 @@
-time: 2020-06-12 23:13:02 +0900
+time: 2020-06-12 23:44:30 +0900
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+今日のありがたいカレンダー
+
+これが今日も1ミリも出来てなかったですね
+夕飯を食べ損ねる程度には喋りっぱなしでした。
+
+お喋りな性格を抑えてこれなので、もっと静かになりたいです。
+
+おやすみなさい。 https://t.co/zvhzW4Bsnt
+media:
+https://pbs.twimg.com/media/EaUbt-KUwAAjbai.jpg?format=jpg&name=orig
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @_vl0_0lv_: みてみて！！キュピーン✨三銃士！！！ https://t.co/GHgdQgcAhJ
+media:
+https://pbs.twimg.com/media/EaUVo_fUYAEWHZW.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
@@ -739,17 +762,4 @@ full_text:
 薬の影響で丸1日ほど寝込んでいた
 頭がふらつくので何もできなかった…lol
 
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-いまおきた
-
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text:
-いまおきた
-昼じゃん？
-
-image_uri: https://pbs.twimg.com/media/EaUMJ9PU4AAX_3c.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EaUbt-KUwAAjbai.jpg?format=jpg&name=orig
