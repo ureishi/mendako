@@ -17,7 +17,7 @@ def twitter_client
 	}
 end
 
-puts "time: #{Time.now}"
+puts "time: #{Time.now.localtime '+09:00'}"
 
 query = File.open('query.txt'){_1.gets}.chomp
 puts "query: #{query}"
@@ -27,16 +27,18 @@ whitelist = File.open('whitelist.txt'){|f|
 }
 puts "whitelist: #{whitelist}"
 
+n = 10
+
 result_tweets = twitter_client.search(
 	query,
-	count: 100,
+	count: n,
 	result_type: 'recent'
 )
 
 puts
 
 image_uri = ''
-result_tweets.take(100).each{|tw|
+result_tweets.take(n).each{|tw|
 	if tw.media? and whitelist.include? tw.user.id and image_uri.empty?
 		image_uri = "#{tw.media.first.media_uri_https}?format=jpg&name=orig"
 		#break
