@@ -1,77 +1,79 @@
 query: from:suicaivrc
 whitelist: [754907745065709569, 1213643085852246016]
-screen_name: SUICAIVRC
-name: 🌸SUICAI🦊
-id: 1213643085852246016
-full_text: 買わなきゃ（買ってる）
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @Yueou: 【オリジナル3Dモデル】東狐千春—ちはるちゃん 1.1 | 仮想VoidCat 
+full_text:
+買わなきゃ（買ってる）
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+RT @Yueou: 【オリジナル3Dモデル】東狐千春—ちはるちゃん 1.1 | 仮想VoidCat 
 千春ちゃん1.1アップデートしました！いろいろ原因でめっちゃ遅刻したすみませんでした！
 スク水セットと新しい表情追加しました！
 報告された問題も修正… https://t.co/3O68d2qmZ1
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @s1902914 画像見る限りではModが原因…という気もします。
-media:
+full_text:
+@s1902914 画像見る限りではModが原因…という気もします。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @s1902914 電圧降下が考えられる原因
+full_text:
+@s1902914 電圧降下が考えられる原因
 ❌電線の容量が足りない
 ✅枝分かれする時は割り算です
 例　8MWの電線を6と4で分岐させると最大10MWを8MWで処理することに…
 
 ❌夜間か施設の影響を受けてる
 ✅夜間や施設の稼働は… https://t.co/crJhdg48BJ
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ❌無料
+full_text:
+❌無料
 ✅無理
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: publicインスタンスを日本人で埋めるという、太平洋戦争でアメリカに勝つにはみたいな話題を見た気がする。無料ぞ。
-media:
+full_text:
+publicインスタンスを日本人で埋めるという、太平洋戦争でアメリカに勝つにはみたいな話題を見た気がする。無料ぞ。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @mukawa00houjouj たしかに〜👍
-media:
+full_text:
+@mukawa00houjouj たしかに〜👍
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 🇷🇴の話はpublicでは厳しかったと思います。個室でやろう。
-media:
+full_text:
+🇷🇴の話はpublicでは厳しかったと思います。個室でやろう。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 今日の坊主barは深く突っ込んだ仏教の話や、素朴な疑問、基本的な話、など多岐に渡りたくさん話されてました。
+full_text:
+今日の坊主barは深く突っ込んだ仏教の話や、素朴な疑問、基本的な話、など多岐に渡りたくさん話されてました。
 
 いろんな専門を極めている方が居て
 上を見たら首が曲がって持たないなと思いました。（アバター的な意味でも）
 ありがたいあり… https://t.co/5hcN6Lc0pi
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @madoka55537: 先ほどまで満員御礼状態だったのですが、
+full_text:
+RT @madoka55537: 先ほどまで満員御礼状態だったのですが、
 ２１時から少し余裕ができましたー
 皆さま、遊びにきてくださり、
 本当にありがとうございます。
@@ -86,158 +88,159 @@ https://pbs.twimg.com/media/EaOtEuIUMAUvDwV.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @mukawa00houjouj: 今日もたくさんの方にお参りいただきました🙏
+full_text:
+RT @mukawa00houjouj: 今日もたくさんの方にお参りいただきました🙏
 けっこう素朴な疑問もいただいて私も面白かったです(^^) https://t.co/AEEKyYzdEK
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @jijimedical: ◇
+full_text:
+RT @jijimedical: ◇
 「発達障害は病気ではなく、その人が生まれ持った特性です」
 
 人との関わりへの興味を高め、コミュニケーション意欲を引き出していく
 ＃発達障害　＃自閉症スペクトラム
 
 https://t.co/i1SMZwef8t
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ワオ
-media:
+full_text:
+ワオ
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @kurikin_vrc: すずらん集会場で　一人の女を取り合う男と女がケンカしてて修羅場
-media:
+full_text:
+RT @kurikin_vrc: すずらん集会場で　一人の女を取り合う男と女がケンカしてて修羅場
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 蒸し暑さと雨とマスクでタヒるかと思ったわい
-media:
+full_text:
+蒸し暑さと雨とマスクでタヒるかと思ったわい
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: はい退勤、僕の勝ちです（ペプシ）
-media:
+full_text:
+はい退勤、僕の勝ちです（ペプシ）
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: あと少しで帰れるんや…！！
-media:
+full_text:
+あと少しで帰れるんや…！！
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 仕事する振りを開始
-media:
+full_text:
+仕事する振りを開始
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 昨日うっかり除湿のままエアコン回してカサカサになってたが
+full_text:
+昨日うっかり除湿のままエアコン回してカサカサになってたが
 一転、今日はベタベタする…。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 今日も1日がんばるぞい
+full_text:
+今日も1日がんばるぞい
 （蒸し暑いからかえりたい〜）
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: つんつんバンド家に忘れてきてしまった
-media:
+full_text:
+つんつんバンド家に忘れてきてしまった
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 本日です
+full_text:
+本日です
 
 ワールド名は「NamuNamu」で検索すると出ると思います。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @monbetsuji: 【拡散希望】
+full_text:
+RT @monbetsuji: 【拡散希望】
 VRchatでお坊さんに相談したら気持ちが軽くなる件‼️
 「坊主バー」今回は6月11日(木)20時～22時までやりますよ🙏
 🌐ワールド名は「Namu Namu 1.4」
 
 バーでみんなでガヤガヤお話できる所と、個室で… https://t.co/8APkGmuQYX
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @aivrc Discordでフレリクを送ったやで
-media:
+full_text:
+@aivrc Discordでフレリクを送ったやで
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: おはようございます
-media:
+full_text:
+おはようございます
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 夢見がめっちゃ良くなかった
-media:
+full_text:
+夢見がめっちゃ良くなかった
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: わかる
-media:
+full_text:
+わかる
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @iorirate_VR: 私が提唱するVRCを精神衛生上健全にプレイする方法はjoin先を増やすことですね
+full_text:
+RT @iorirate_VR: 私が提唱するVRCを精神衛生上健全にプレイする方法はjoin先を増やすことですね
 自分自身で色んな人に会いたいと思えるような環境を作っていくことが大切だと思います
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ＶＲＣ上にもお寺の掲示板があっても良いんじゃないかなと思います。
+full_text:
+ＶＲＣ上にもお寺の掲示板があっても良いんじゃないかなと思います。
 
 これ言い出したの私なんで何かいい方法がないか考えてみます。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: お寺の掲示板　読了
+full_text:
+お寺の掲示板　読了
 
 普段は縁遠いものとなった寺と外界を結ぶのが掲示板
 仏教を一言で伝えるという困難な作業を毎月されてるのだ
 
 そうして、人々を「気付かせる」ものがSNS時代に拡散される
 わざわざ寺の前に行かなくても良いありがたい… https://t.co/xGCTXAus47
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 今日は生きて寝床につけたので僕の勝ちです。ほな、おやすみなさい。（ペプシおじさんのまね）
-media:
+full_text:
+今日は生きて寝床につけたので僕の勝ちです。ほな、おやすみなさい。（ペプシおじさんのまね）
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 1.音ゲーをキメるうれいしさん
+full_text:
+1.音ゲーをキメるうれいしさん
 2.音ゲーをキメるきーたん
 3.なかよしうれいしさん
 4.今日出会った可愛い和服ミーシェちゃん https://t.co/SKvDPdvVja
@@ -250,87 +253,89 @@ https://pbs.twimg.com/media/EaJeF6bUMAAOB0u.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 注目の裁判だったが妥当な判決になったようだ
-media:
+full_text:
+注目の裁判だったが妥当な判決になったようだ
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 京都の銘菓「八ッ橋」の老舗の製造会社が、創業した年を300年以上前と商品などに表示しているライバルの老舗会社に対し、根拠… https://t.co/b4bOCOjfMZ
-media:
+full_text:
+京都の銘菓「八ッ橋」の老舗の製造会社が、創業した年を300年以上前と商品などに表示しているライバルの老舗会社に対し、根拠… https://t.co/b4bOCOjfMZ
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ごきたく
+full_text:
+ごきたく
 つかれた！
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 世間的にあの世には地獄も内包されてるので、向こう岸（いい感じな場所）というニュアンスなんかな。
-media:
+full_text:
+世間的にあの世には地獄も内包されてるので、向こう岸（いい感じな場所）というニュアンスなんかな。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @ainowuye: どうでもいい事かもしれないが、亡くなった人に「天国へ旅立った」などと、何年も前からメディアが言うのはかなりの違和感でね。その場合の「天国」とは何なのだろうと、やはり考えるわけですよ。
-media:
+full_text:
+RT @ainowuye: どうでもいい事かもしれないが、亡くなった人に「天国へ旅立った」などと、何年も前からメディアが言うのはかなりの違和感でね。その場合の「天国」とは何なのだろうと、やはり考えるわけですよ。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: かえりたい！（晴れてるうちに）
-media:
+full_text:
+かえりたい！（晴れてるうちに）
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 午後もがんばるぞい
-media:
+full_text:
+午後もがんばるぞい
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: キリストがTwitterトレンド欄を訪れると、民衆が石を誰にでも投げていた。
+full_text:
+キリストがTwitterトレンド欄を訪れると、民衆が石を誰にでも投げていた。
 
 キリスト「今まで罪を犯してない者だけ石を投げよ」
 
 やがて石を投げる民衆は居なくなり
 「先生のおかげで儲かりました！」という情報商材屋と関係ない韓流スターの動画だけ残った。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @BainiteKobo よく分からんけどおしごとできてえらい！
-media:
+full_text:
+@BainiteKobo よく分からんけどおしごとできてえらい！
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ひるめし https://t.co/fhA4UkRDoN
+full_text:
+ひるめし https://t.co/fhA4UkRDoN
 media:
 https://pbs.twimg.com/media/EaHpVLKVAAAoWl9.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @59rar 肌がきれい
+full_text:
+@59rar 肌がきれい
 +114点
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 疲れてるのでお砂糖がしたくなる病に掛かりました。2時間後に治ると思います。
-media:
+full_text:
+疲れてるのでお砂糖がしたくなる病に掛かりました。2時間後に治ると思います。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: すかいらーく→イオンモール
+full_text:
+すかいらーく→イオンモール
 +2万円 https://t.co/9MFiXCiRaV
 media:
 https://pbs.twimg.com/media/EaHCLJhU8AAR5xf.jpg?format=jpg&name=orig
@@ -338,65 +343,67 @@ https://pbs.twimg.com/media/EaHCLJhU8AAR5xf.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ワールド自作発言ニキ名義違うのはどういう理屈でごまかすのかな。
+full_text:
+ワールド自作発言ニキ名義違うのはどういう理屈でごまかすのかな。
 
 守護霊を名乗るとか？
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 忙しい訳ではないがやる気が出てこないので、身の回りの事が何も進まない〜〜
-media:
+full_text:
+忙しい訳ではないがやる気が出てこないので、身の回りの事が何も進まない〜〜
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @59rar 常に明るい気分と持久力を保つ謎の薬…lol
-media:
+full_text:
+@59rar 常に明るい気分と持久力を保つ謎の薬…lol
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 明日でーす
-media:
+full_text:
+明日でーす
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: やる気があまり出ず、作りかけでほったらかしにしている鉄鉱山 #sovietrepublic https://t.co/ZZlR7hWM7S
+full_text:
+やる気があまり出ず、作りかけでほったらかしにしている鉄鉱山 #sovietrepublic https://t.co/ZZlR7hWM7S
 media:
 https://pbs.twimg.com/media/EaGkX0MVcAERqVi.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: おはようございます
+full_text:
+おはようございます
 さして寝れなかった
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ねれないな…困った
-media:
+full_text:
+ねれないな…困った
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 売り時の判断が苦手です…lol
-media:
+full_text:
+売り時の判断が苦手です…lol
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 組織が身内で回るならいいんですが、毎年メンツが変わるようになったら内部的問題を疑ったほうが良いです。
-media:
+full_text:
+組織が身内で回るならいいんですが、毎年メンツが変わるようになったら内部的問題を疑ったほうが良いです。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: コロナの影響で業績的にすかいらーくが売り時の気もするが…
+full_text:
+コロナの影響で業績的にすかいらーくが売り時の気もするが…
 株高で投資対象が特にない。 https://t.co/QKw7btd4ML
 media:
 https://pbs.twimg.com/media/EaEXdxdU8AEhqRH.jpg?format=jpg&name=orig
@@ -404,91 +411,95 @@ https://pbs.twimg.com/media/EaEXdxdU8AEhqRH.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: つかれたねる
-media:
+full_text:
+つかれたねる
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 加糖かと思ってたが無糖だった https://t.co/uVF0XGaFnp
+full_text:
+加糖かと思ってたが無糖だった https://t.co/uVF0XGaFnp
 media:
 https://pbs.twimg.com/media/EaEMMPLUEAAQMPD.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 何か新しくなったなと思ったらそうだったのか。
+full_text:
+何か新しくなったなと思ったらそうだったのか。
 
 倉敷駅前にはアリオもアウトレットも天満屋もアパホテルも美観地区もあるから駅ビルの役割は低い…かも
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @shoutengai: 素晴らしい決断。見えはって再開発してガラガラのほうが衰退の象徴になる。岡山・倉敷都市圏は成長しているからこそ、こういう拠点が減築すれば別の場所に民間投資が行われることになる。┃「減築」で駅ビルがコンパクトに 倉敷駅を8階から3階建… https://t.co/uVfEnKwBHQ
-media:
+full_text:
+RT @shoutengai: 素晴らしい決断。見えはって再開発してガラガラのほうが衰退の象徴になる。岡山・倉敷都市圏は成長しているからこそ、こういう拠点が減築すれば別の場所に民間投資が行われることになる。┃「減築」で駅ビルがコンパクトに 倉敷駅を8階から3階建… https://t.co/uVfEnKwBHQ
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @hyuga_kabocha: くら寿司、アマエビの前に髪がアマエビのアマビエが流れてきて、ますますアマエビとアマビエの境をわからなくしている。 https://t.co/nQ2Qjt5Jcm
+full_text:
+RT @hyuga_kabocha: くら寿司、アマエビの前に髪がアマエビのアマビエが流れてきて、ますますアマエビとアマビエの境をわからなくしている。 https://t.co/nQ2Qjt5Jcm
 media:
 https://pbs.twimg.com/media/EZ_AVqxVAAERvgh.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @ki_tan_neko 帯域警察が飛んできそう
-media:
+full_text:
+@ki_tan_neko 帯域警察が飛んできそう
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @phio_alchemist: Vket5は主催続投になりました！
+full_text:
+RT @phio_alchemist: Vket5は主催続投になりました！
 
 ComicVket1でも主催をやってます。
 MusicVket1でも主催をやってます。
 
 ただここまで来ると流石に無理があるので、Vket5では信頼できるリーダーたちにかなりの範囲で権限委譲を… https://t.co/kSEAmi9XvM
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ごきたく～
-media:
+full_text:
+ごきたく～
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 英会話教室の前で英語の喧嘩を見かけた
+full_text:
+英会話教室の前で英語の喧嘩を見かけた
 イ　グ　ザ　ク　ド　リ　ィ　みたいに間隔を開けて煽るんやな。
 
 警察を呼ぶか迷ったがめんどくさいので近隣住民に任せた。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @TokiwaKrotzgu: ゴキブリかと思って叩き潰したらCapsLockだった https://t.co/ohy2SX7eRK
+full_text:
+RT @TokiwaKrotzgu: ゴキブリかと思って叩き潰したらCapsLockだった https://t.co/ohy2SX7eRK
 media:
 https://pbs.twimg.com/media/EZ6RJV8VcAAimRM.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: ちょっと手に貼ったバンドエイド（絆創膏）が透明だったので珍しいなと思ったがなるほど「肌色」ではないのだ。
+full_text:
+ちょっと手に貼ったバンドエイド（絆創膏）が透明だったので珍しいなと思ったがなるほど「肌色」ではないのだ。
 
 確かに今のアメリカで「白いバンドエイド」は売れないか訴えられるやろなぁ。
 世の中さり気なく前進している。
 
 （色鉛の筆肌色騒動とか）
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 毎時3本とかどこのローカル線かと思ったが新大阪駅の山陽新幹線である。
+full_text:
+毎時3本とかどこのローカル線かと思ったが新大阪駅の山陽新幹線である。
 
 つまり毎時3本以上特急が走っていれば新幹線以上だ（ゼロカロリー理論） https://t.co/2oUSxtOsN2
 media:
@@ -497,105 +508,106 @@ https://pbs.twimg.com/media/EaCn4Z_UwAEnjAI.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 新幹線の新神戸駅って三ノ宮の方が近いんか…
-media:
+full_text:
+新幹線の新神戸駅って三ノ宮の方が近いんか…
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: あついんですけど💢💢💢
-media:
+full_text:
+あついんですけど💢💢💢
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 確かに定員2名でいいなら、ピックアップトラックじゃなくても良いよなぁ〜
-media:
+full_text:
+確かに定員2名でいいなら、ピックアップトラックじゃなくても良いよなぁ〜
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @YahooNewsTopics: 【軽トラ なぜアメリカで大人気】
+full_text:
+RT @YahooNewsTopics: 【軽トラ なぜアメリカで大人気】
 https://t.co/D7AT32sTfN
 
 軽トラックは日本のメーカーが日本人のために作った、使い勝手が良く維持費も安い車。だが近年、アメリカで大人気で、消防署、救急車の手配会社や一部の警察機関でも使われ始めているという。その理由を解説。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 仕事がんばり過ぎて手に水ぶくれができてしまった…
-media:
+full_text:
+仕事がんばり過ぎて手に水ぶくれができてしまった…
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: かえりたい〜
-media:
+full_text:
+かえりたい〜
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: きょうは仕事がんばるぞい
-media:
+full_text:
+きょうは仕事がんばるぞい
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 鳴門のうずしおを見に行きたいですね。
-media:
+full_text:
+鳴門のうずしおを見に行きたいですね。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 南無阿弥陀仏　南無阿弥陀仏
-media:
+full_text:
+南無阿弥陀仏　南無阿弥陀仏
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @aivrc わんもあ睡眠
-media:
+full_text:
+@aivrc わんもあ睡眠
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: さて、できるかな〜…？
+full_text:
+さて、できるかな〜…？
 とりあえずおしごとへ
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @phrayuki: Q. 感情のままに行動してしまい、後で後悔することが多いです。そのような時は自分を責める思考が浮かんできて苦しいですが、どうすればよいでしょうか？
+full_text:
+RT @phrayuki: Q. 感情のままに行動してしまい、後で後悔することが多いです。そのような時は自分を責める思考が浮かんできて苦しいですが、どうすればよいでしょうか？
 
 A. 気づきの練習を繰り返すことによって、自分を責めない→後悔しない→行動化しな… https://t.co/5JyeAFVyl5
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 体調が良くない上に、どうしたら良いか対処が分からんので困っている。
+full_text:
+体調が良くない上に、どうしたら良いか対処が分からんので困っている。
 
 次の休みまで時間が過ぎるを待つのが正解っぽいがはたして…
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 今朝の共和国
+full_text:
+今朝の共和国
 
 1.拡張した鉄鉱石の鉱山
 2.核燃料が余ったので内需向けに1基型の原発を建設した
 3.既存の売電/内需併用の2基型はほぼフル稼働している
 
 今後の目標として石炭がやたら余ってるので鉄工所を拡充し、家電の自国生産を目… https://t.co/8ckVZ2TL3r
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 教室の後ろに座らされる
+full_text:
+教室の後ろに座らされる
 
 「すいかい君ね〜、我の授業で寝すぎなんよ〜」
 『あっ…はい、そんなに寝てますか…』
@@ -604,70 +616,70 @@ full_text: 教室の後ろに座らされる
 なんか知らんが夢の中で怒られたのであった。
 
 #ケイロカミオカ
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 坊主バー応援してます
-media:
+full_text:
+坊主バー応援してます
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 薬の影響で丸1日ほど寝込んでいた
+full_text:
+薬の影響で丸1日ほど寝込んでいた
 頭がふらつくので何もできなかった…lol
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: いまおきた
-media:
+full_text:
+いまおきた
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: いまおきた
+full_text:
+いまおきた
 昼じゃん？
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: おやすみ～
-media:
+full_text:
+おやすみ～
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 人物に対して幻を見てるから、彼らは人生に苦しみ続ける。
+full_text:
+人物に対して幻を見てるから、彼らは人生に苦しみ続ける。
 
 という事にしておくと気が楽ではある。なお自分棚上げ。
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 特に災難が発生している訳ではないし、とりあえず現状維持で良いか〜。
-media:
+full_text:
+特に災難が発生している訳ではないし、とりあえず現状維持で良いか〜。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 正見（しょうけん）というのは仏教での基本的なことの1つとされてるが、これが全くできない状態に今あるので難儀してる。
-media:
+full_text:
+正見（しょうけん）というのは仏教での基本的なことの1つとされてるが、これが全くできない状態に今あるので難儀してる。
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 序盤に掛かってるモスクワ防衛軍の歌は好きな曲です
-media:
+full_text:
+序盤に掛かってるモスクワ防衛軍の歌は好きな曲です
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @ukraine_zin: もう今となってはありえない光景だね
+full_text:
+RT @ukraine_zin: もう今となってはありえない光景だね
 アメリカ軍が赤の広場を行進するという胸熱な光景… https://t.co/OSC1ElfEEB
 media:
 https://pbs.twimg.com/ext_tw_video_thumb/1269506446510587904/pu/img/YYNDHqipFYJcVMei.jpg?format=jpg&name=orig
@@ -675,14 +687,15 @@ https://pbs.twimg.com/ext_tw_video_thumb/1269506446510587904/pu/img/YYNDHqipFYJc
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: なんか無言勢が周りで増えている…
+full_text:
+なんか無言勢が周りで増えている…
 すいかいと話すなとお触れでも出ているかのような…？そんな気分lol
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @goldentakasan: お釈迦様の足の裏 https://t.co/8erPk8vfcB
+full_text:
+RT @goldentakasan: お釈迦様の足の裏 https://t.co/8erPk8vfcB
 media:
 https://pbs.twimg.com/media/EZ5SuP_UMAMdNgw.jpg?format=jpg&name=orig
 https://pbs.twimg.com/media/EZ5SvZ_UMAERabi.jpg?format=jpg&name=orig
@@ -692,14 +705,16 @@ https://pbs.twimg.com/media/EZ5SxM2U0AIj5mq.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @vrlife_magazine: 【バーチャルライフマガジン】みんなで見れる・投稿できる。視聴者投稿型テレビ、VRC放送局、開局！ https://t.co/hJT0NVEfFM @vrc_tv https://t.co/5Wy5fPYQto
+full_text:
+RT @vrlife_magazine: 【バーチャルライフマガジン】みんなで見れる・投稿できる。視聴者投稿型テレビ、VRC放送局、開局！ https://t.co/hJT0NVEfFM @vrc_tv https://t.co/5Wy5fPYQto
 media:
 https://pbs.twimg.com/ext_tw_video_thumb/1267395681804677120/pu/img/t9rv7TphMoe5paMo.jpg?format=jpg&name=orig
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 最近のVRC
+full_text:
+最近のVRC
 
 1.ミーシェちゃん集会？
 2 bdさんかわいい
@@ -714,7 +729,8 @@ https://pbs.twimg.com/media/EZ4xVq_UYAAx3sP.jpg?format=jpg&name=orig
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: RT @Hoshi_Lime: 【お知らせ】次回の授乳Cafeからシステムが大幅に変更になります。
+full_text:
+RT @Hoshi_Lime: 【お知らせ】次回の授乳Cafeからシステムが大幅に変更になります。
 
 ・インスタンスは２つまで
 ・インスタンスの上限を80→40人
@@ -722,29 +738,28 @@ full_text: RT @Hoshi_Lime: 【お知らせ】次回の授乳Cafeからシステ�
 ・集合写真は16時50分の一回
 
 来て下さっている方… https://t.co/RHL1pviLoa
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: 本日のすいかい共和国 #sovietrepublic
+full_text:
+本日のすいかい共和国 #sovietrepublic
 
 1.使わなくなった火力発電所を爆破！
 2.油田まで車だと遠い、しかし需要は化学工場×4程度...
    なので単行貨物列車ができました。電気は腐るほどある。
 3.空気がきれい… https://t.co/qNbWkOdDH6
-media:
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: @VRC_OCEAN2 おはよう～
-media:
+full_text:
+@VRC_OCEAN2 おはよう～
 
 screen_name: SUICAIVRC
 name: 🌸SUICAI🦊
 id: 1213643085852246016
-full_text: おはようございます
-media:
+full_text:
+おはようございます
 
 image_uri: https://pbs.twimg.com/media/EaOtEuEU0AAVvpH.jpg?format=jpg&name=orig
