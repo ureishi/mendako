@@ -1,0 +1,12 @@
+query: from:suicaivrc
+whitelist: [754907745065709569, 1213643085852246016]
+
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+1.流行りの和服ミーシェちゃん
+2.千春ちゃんも流行る
+3.赤い星さん
+4.アヘ顔が意図せず出るので健全な顔に差し替えました https://t.co/K1NrulwVET
+image_uri: https://pbs.twimg.com/media/EaWTJOrVcAAzv3z.jpg?format=jpg&name=orig
