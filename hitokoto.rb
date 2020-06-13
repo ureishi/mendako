@@ -41,7 +41,7 @@ puts
 
 image_uri = nil
 result_tweets.take(N).each{|tw|
-	if true or whitelist.include? tw.user.id
+	if whitelist.include? tw.user.id #or true
 		sleep 10
 		t = (if tw.retweet?
 			tw.retweeted_status
