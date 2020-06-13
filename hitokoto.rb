@@ -49,13 +49,17 @@ result_tweets.take(N).each{|tw|
 			twitter_client.status(tw, tweet_mode: 'extended')
 		end)
 		
-		puts "screen_name: #{t.user.screen_name}"
-		puts "name: #{t.user.name}"
-		puts "id: #{t.user.id}"
-		puts "full_text:\n#{t.full_text}"
-		
 		if t.media?
 			image_uri = get_orig_image_uri t.media.first.media_uri_https
+		elsif t.uris.length > 0
+			t.uris.each{
+				if _1.expanded_url.to_s.start_with? 'https://twitter.com'
+					sleep 5
+					t = twitter_client.status(_1.expanded_url, tweet_mode: 'extended')
+					image_uri = get_orig_image_uri t.media.first.media_uri_https
+				end
+				break if image_uri
+			}
 		end
 	end
 	
