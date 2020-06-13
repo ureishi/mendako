@@ -17,7 +17,9 @@ def twitter_client
 	}
 end
 
-puts "time: #{Time.now.localtime '+09:00'}"
+def get_orig_image_uri s
+	"#{s}?format=jpg&name=orig"
+end
 
 query = File.open('query.txt'){_1.gets}.chomp
 puts "query: #{query}"
@@ -27,35 +29,44 @@ whitelist = File.open('whitelist.txt'){|f|
 }
 puts "whitelist: #{whitelist}"
 
-n = 100
+N = 50
 
 result_tweets = twitter_client.search(
 	query,
-	count: n,
-	result_type: 'recent'
+	count: N,
+	result_type: 'recent',
 )
 
 puts
 
-image_uri = ''
-result_tweets.take(n).each{|tw|
-	if tw.media? and whitelist.include? tw.user.id and image_uri.empty?
-		image_uri = "#{tw.media.first.media_uri_https}?format=jpg&name=orig"
-		#break
+image_uri = nil
+result_tweets.take(N).each{|tw|
+	if whitelist.include? tw.user.id
+		sleep 10
+		t = (if tw.retweet?
+			tw.retweeted_status
+		else
+			twitter_client.status(tw, tweet_mode: 'extended')
+		end)
+		
+		puts "screen_name: #{t.user.screen_name}"
+		puts "name: #{t.user.name}"
+		puts "id: #{t.user.id}"
+		puts "full_text:\n#{t.full_text}"
+		
+		if t.media?
+			image_uri = get_orig_image_uri t.media.first.media_uri_https
+		end
 	end
-	puts "screen_name: #{tw.user.screen_name}"
-	puts "name: #{tw.user.name}"
-	puts "id: #{tw.user.id}"
-	puts "full_text:\n#{tw.full_text}"
-	puts "media:\n#{tw.media.map{"#{_1.media_uri_https}?format=jpg&name=orig"}.join "\n"}" if tw.media?
-	puts
+	
+	break if image_uri
 }
+
+image_uri ||= 'https://ureishi.github.io/hitokoto/hitokoto.jpg'
 
 puts "image_uri: #{image_uri}"
 
-if not image_uri.empty?
-	file_name = 'hitokoto.jpg'
-	# 試行回数3回 タイムアップ3秒 待機時間3秒
-	command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
-	`#{command}`
-end
+file_name = 'hitokoto.jpg'
+# 試行回数3回 タイムアップ3秒 待機時間3秒
+command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
+`#{command}`
