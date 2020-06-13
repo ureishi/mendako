@@ -1,4 +1,16 @@
-query: from:suicaivrc ありがた
+query: from:suicaivrc ありがたい
 whitelist: [754907745065709569, 1213643085852246016]
 
-image_uri: https://ureishi.github.io/hitokoto/hitokoto.jpg
+screen_name: SUICAIVRC
+name: 🌸SUICAI🦊
+id: 1213643085852246016
+full_text:
+今日のありがたいカレンダー
+
+これが今日も1ミリも出来てなかったですね
+夕飯を食べ損ねる程度には喋りっぱなしでした。
+
+お喋りな性格を抑えてこれなので、もっと静かになりたいです。
+
+おやすみなさい。 https://t.co/zvhzW4Bsnt
+image_uri: https://pbs.twimg.com/media/EaUbt-KUwAAjbai.jpg?format=jpg&name=orig
