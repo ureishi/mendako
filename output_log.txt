@@ -1,4 +1,4 @@
-query: #今日のことばVRC
+query: from:suicaivrc #今日のことばVRC
 whitelist: [754907745065709569, 1213643085852246016]
 
-image_uri: https://pbs.twimg.com/media/EZdAhUGUEAEHOEL.jpg?format=jpg&name=orig
+image_uri: https://pbs.twimg.com/media/EadNvXtUYAAaBJB.jpg?format=jpg&name=orig
