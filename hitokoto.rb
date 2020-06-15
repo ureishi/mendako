@@ -56,7 +56,9 @@ result_tweets.take(N).each{|tw|
 				if _1.expanded_url.to_s.start_with? 'https://twitter.com'
 					sleep 5
 					t = twitter_client.status(_1.expanded_url, tweet_mode: 'extended')
-					image_uri = get_orig_image_uri t.media.first.media_uri_https
+					if t.media?
+						image_uri = get_orig_image_uri t.media.first.media_uri_https
+					end
 				end
 				break if image_uri
 			}
