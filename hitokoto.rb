@@ -24,10 +24,10 @@ end
 query = File.open('query.txt'){_1.gets}.chomp
 puts "query: #{query}"
 
-whitelist = File.open('whitelist.txt'){|f|
+allowlist = File.open('allowlist.txt'){|f|
 	f.each_line.map{|l| l.split.first.to_i}
 }
-puts "whitelist: #{whitelist}"
+puts "allowlist: #{allowlist}"
 
 N = 50
 
@@ -41,7 +41,7 @@ puts
 
 image_uri = nil
 result_tweets.take(N).each{|tw|
-	if whitelist.include? tw.user.id #or true
+	if allowlist.include? tw.user.id #or true
 		sleep 10
 		t = (if tw.retweet?
 			tw.retweeted_status
