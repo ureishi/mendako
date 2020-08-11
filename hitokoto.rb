@@ -39,34 +39,44 @@ result_tweets = twitter_client.search(
 
 puts
 
-image_uri = nil
-result_tweets.take(N).each{|tw|
-	if allowlist.include? tw.user.id #or true
-		sleep 10
-		t = (if tw.retweet?
-			tw.retweeted_status
-		else
-			twitter_client.status(tw, tweet_mode: 'extended')
-		end)
-		
-		if t.media?
-			image_uri = get_orig_image_uri t.media.first.media_uri_https
-		elsif t.uris.length > 0
-			t.uris.each{
-				if _1.expanded_url.to_s.start_with? 'https://twitter.com'
-					sleep 5
-					t = twitter_client.status(_1.expanded_url, tweet_mode: 'extended')
-					if t.media?
-						image_uri = get_orig_image_uri t.media.first.media_uri_https
+auto_mode = true
+
+if auto_mode
+	image_uri = nil
+	result_tweets.take(N).each{|tw|
+		if allowlist.include? tw.user.id #or true
+			sleep 10
+			t = (if tw.retweet?
+				tw.retweeted_status
+			else
+				twitter_client.status(tw, tweet_mode: 'extended')
+			end)
+
+			if t.media?
+				image_uri = get_orig_image_uri t.media.first.media_uri_https
+			elsif t.uris.length > 0
+				t.uris.each{
+					if _1.expanded_url.to_s.start_with? 'https://twitter.com'
+						sleep 5
+						t = twitter_client.status(_1.expanded_url, tweet_mode: 'extended')
+						if t.media?
+							image_uri = get_orig_image_uri t.media.first.media_uri_https
+						end
 					end
-				end
-				break if image_uri
-			}
+					break if image_uri
+				}
+			end
 		end
+
+		break if image_uri
+	}
+else
+	sleep 5
+	t = twitter_client.status(File.open('manual_url.txt'){_1.gets}.chomp, tweet_mode: 'extended')
+	if t.media?
+		image_uri = get_orig_image_uri t.media.first.media_uri_https
 	end
-	
-	break if image_uri
-}
+end
 
 image_uri ||= 'https://ureishi.github.io/hitokoto/hitokoto.jpg'
 
