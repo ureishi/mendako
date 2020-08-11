@@ -41,8 +41,9 @@ puts
 
 auto_mode = true
 
+image_uri = nil
+
 if auto_mode
-	image_uri = nil
 	result_tweets.take(N).each{|tw|
 		if allowlist.include? tw.user.id #or true
 			sleep 10
@@ -73,6 +74,7 @@ if auto_mode
 else
 	sleep 5
 	t = twitter_client.status(File.open('manual_url.txt'){_1.gets}.chomp, tweet_mode: 'extended')
+	puts t
 	if t.media?
 		image_uri = get_orig_image_uri t.media.first.media_uri_https
 	end
