@@ -39,7 +39,7 @@ result_tweets = twitter_client.search(
 
 puts
 
-auto_mode = true
+auto_mode = !true
 
 image_uri = nil
 
@@ -74,7 +74,6 @@ if auto_mode
 else
 	sleep 5
 	t = twitter_client.status(File.open('manual_url.txt'){_1.gets}.chomp, tweet_mode: 'extended')
-	puts t
 	if t.media?
 		image_uri = get_orig_image_uri t.media.first.media_uri_https
 	end
