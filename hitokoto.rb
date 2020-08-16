@@ -39,7 +39,7 @@ result_tweets = twitter_client.search(
 
 puts
 
-auto_mode = !true
+auto_mode = true
 
 image_uri = nil
 
