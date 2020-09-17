@@ -1,2 +1,2 @@
 Today's hitokoto
-https://ureishi.github.io/hitokoto/hitokoto.jpg
+https://ureishi.github.io/mendako/output.jpg
