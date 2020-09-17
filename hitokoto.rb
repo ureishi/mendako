@@ -79,11 +79,11 @@ else
 	end
 end
 
-image_uri ||= 'https://ureishi.github.io/hitokoto/hitokoto.jpg'
+image_uri ||= 'https://ureishi.github.io/mendako/output.jpg'
 
 puts "image_uri: #{image_uri}"
 
-file_name = 'hitokoto.jpg'
+file_name = 'output.jpg'
 # 試行回数3回 タイムアップ3秒 待機時間3秒
 command = "wget -t 3 -T 3 -w 3 -O #{file_name} #{image_uri}"
 `#{command}`
