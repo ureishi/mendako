@@ -1,4 +1,4 @@
 query: from:daily_mendako filter:images
-allowlist: [754907745065709569, 1213643085852246016]
+allowlist: [1118339375299850241]
 
-image_uri: https://ureishi.github.io/mendako/output.jpg
+image_uri: https://pbs.twimg.com/media/Ehq_QeUVkAIEm3O.png?format=jpg&name=orig
