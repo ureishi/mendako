@@ -1,1 +1,1 @@
-from:suicaivrc #今日のことばVRC
+from:daily_mendako filter:images
