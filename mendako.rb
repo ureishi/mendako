@@ -53,7 +53,7 @@ result_tweets.take(N).each{|tw|
 
 		if t.media?
 			t.media.each{
-				image_uri << (_1.media_uri_https)
+				image_uri << (get_orig_image_uri _1.media_uri_https)
 				is_new << first
 			}
 		end
@@ -90,7 +90,7 @@ puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 	#image_over = MiniMagick::Image.open 'mendako_none.png'
 	image_over.resize "#{SIZE}x#{SIZE}"
 
-	image = image_base.composite image_over{
+	image = image_base.composite(image_over){
 		_1.compose 'Over'
 		_1.gravity 'Center'
 		_1.geometry "+0+0"
