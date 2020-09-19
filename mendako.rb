@@ -42,7 +42,7 @@ result_tweets = twitter_client.search(
 
 puts
 
-is_new = []
+count_new = 0
 image_uri = []
 
 first = true
@@ -54,7 +54,7 @@ result_tweets.take(N).each{|tw|
 		if t.media?
 			t.media.each{
 				image_uri << (get_orig_image_uri _1.media_uri_https)
-				is_new << first
+				count_new += 1 if first
 			}
 		end
 	end
@@ -118,8 +118,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		_1.draw "text #{pos} '#{text}'"
 	}
 	
-	4.times{|i|
-		next if !is_new[i]
+	count_new.times{|i|
 		image.combine_options{
 			#pos = "#{NEW_ICON_X[i]}, 625"
 			pos = "#{NEW_ICON_X[i]*2}, 536"
