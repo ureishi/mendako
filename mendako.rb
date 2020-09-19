@@ -68,7 +68,7 @@ puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 ### create image
 BASE_W = 1024
 BASE_H = 1448
-SIZE = 1024
+SIZE = 1020
 NEW_ICON_X = [-146, -48, 50, 148]
 
 4.times{|page|
