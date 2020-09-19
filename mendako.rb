@@ -1,5 +1,7 @@
-require 'twitter'
 require 'mini_magick'
+require 'net/https'
+require 'twitter'
+require 'uri'
 
 ENVIRONMENT = {
 	TWITTER_CONSUMER_KEY: ARGV[0],
@@ -40,29 +42,26 @@ result_tweets = twitter_client.search(
 
 puts
 
-auto_mode = true
-
+is_new = []
 image_uri = []
+
+first = true
 result_tweets.take(N).each{|tw|
-	if allowlist.include? tw.user.id #or true
+	if allowlist.include? tw.user.id
 		sleep 10
-		t = if tw.retweet?
-			tw.retweeted_status
-		else
-			twitter_client.status tw, tweet_mode: 'extended'
-		end
+		t = twitter_client.status tw, tweet_mode: 'extended'
 
 		if t.media?
 			t.media.each{
 				image_uri << (get_orig_image_uri _1.media_uri_https)
+				is_new << first
 			}
 		end
 	end
-
+	
 	break if image_uri.length >= 4
+	first = false
 }
-
-is_new = [true, false, false, false]
 
 puts "image_uri:\n\t#{image_uri.join "\n"}"
 
