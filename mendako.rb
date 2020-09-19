@@ -21,7 +21,7 @@ def twitter_client
 end
 
 def get_orig_image_uri s
-	"#{s}?format=jpg&name=orig"
+	"#{s}?format=png&name=orig"
 end
 
 query = File.open('query.txt'){_1.gets}.chomp
@@ -63,7 +63,7 @@ result_tweets.take(N).each{|tw|
 	first = false
 }
 
-puts "image_uri:\n\t#{image_uri.join "\n"}"
+puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 
 ### create image
 4.times{|page|
