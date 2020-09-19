@@ -53,7 +53,7 @@ result_tweets.take(N).each{|tw|
 
 		if t.media?
 			t.media.each{
-				image_uri << (get_orig_image_uri _1.media_uri_https)
+				image_uri << (_1.media_uri_https)
 				is_new << first
 			}
 		end
