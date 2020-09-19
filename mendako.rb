@@ -88,7 +88,6 @@ NEW_ICON_X = [-146, -48, 50, 148]
 	image_base = image
 
 	image_over = MiniMagick::Image.open image_url
-	#image_over = MiniMagick::Image.open 'mendako_none.png'
 	image_over.resize "#{SIZE}x#{SIZE}"
 
 	image = image_base.composite(image_over){
@@ -122,7 +121,8 @@ NEW_ICON_X = [-146, -48, 50, 148]
 	4.times{|i|
 		next if !is_new[i]
 		image.combine_options{
-			pos = "#{NEW_ICON_X[i]}, 625"
+			#pos = "#{NEW_ICON_X[i]}, 625"
+			pos = "#{NEW_ICON_X[i]*2}, 536"
 			text = 'NEW!'
 			_1.font './.font/memoir-round.otf'
 			_1.fill '#a31d12'
@@ -133,7 +133,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 	}
 
 	image.combine_options{
-		pos_nw = "0, #{BASE_H - 88}"
+		pos_nw = "0, #{BASE_H - 88*2}"
 		pos_se = "#{BASE_W}, #{BASE_H}"
 		_1.fill '#ffc575'
 		_1.draw "rectangle #{pos_nw} #{pos_se}"
