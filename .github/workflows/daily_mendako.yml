@@ -1,50 +1,53 @@
-name: Ruby
-on:  
+name: daily_mendako
+on:
   push:
-    branches:
-      - master
+    paths:
+    - 'action.txt'
   schedule:
     # 更新時間
     #  5,  6,  7,  8,  9, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23 (JST, UTC+09)
     # 20, 21, 22, 23,  0,  1,  2,  3,  4,  8,  9, 10, 11, 12, 13, 14 (GMT)
     # デーモンプロセス設定 (世界標準時)
-    - cron: 10 20 * * *
+    - cron: 10 22 * * *
 
 jobs:
   download-image:
-    name: download image
+    name: daily_mendako
     runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@master
+      
+      - name: install
+        run: |
+          sudo apt-get update
+          sudo apt-get update
+          sudo apt-get install -y pngquant advancecomp
+          sudo apt-get install -y imagemagick
       
       - name: set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7
       
-      - name: install gem twitter
-        run: gem install twitter
+      - name: install gem
+        run: gem install twitter mini_magick
       
       - name: make public directory
         run: mkdir public
       
       - name: work
         run: |
-          cp hitokoto.rb public/hitokoto.rb
-          cp query.txt public/query.txt
-          cp allowlist.txt public/allowlist.txt
-          cp default.jpg public/output.jpg
-          cp manual_url.txt public/manual_url.txt
-          cd public
-          ruby hitokoto.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}} > output_log.txt
-          rm hitokoto.rb
-          rm query.txt
-          rm allowlist.txt
-          rm manual_url.txt
+          ruby mendako.rb ${{secrets.TWITTER_CONSUMER_KEY}} ${{secrets.TWITTER_CONSUMER_SECRET}} ${{secrets.TWITTER_ACCESS_TOKEN}} ${{secrets.TWITTER_ACCESS_TOKEN_SECRET}} > output_log.txt
+          mv mendako*.png public
+          mv output_log.txt public
           #rm output_log.txt
-          cd ../
-        
+      
+      - name: optimize
+        run: |
+          pngquant --force --ext .png --speed 1 public/mendako*.png
+          advpng -z -4 -i 10 public/mendako*.png
+      
       ### DEPLOY ###
       # https://qiita.com/syui/items/f1f2db8660cda34d8938
       # https://github.com/peaceiris/actions-gh-pages

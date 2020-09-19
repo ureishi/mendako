@@ -29,12 +29,12 @@ allowlist = File.open('allowlist.txt'){|f|
 }
 puts "allowlist: #{allowlist}"
 
-N = 50
+N = 2
 
 result_tweets = twitter_client.search(
 	query,
 	count: N,
-	result_type: 'recent',
+	result_type: 'recent'
 )
 
 puts
@@ -42,9 +42,9 @@ puts
 auto_mode = true
 
 image_uri = nil
-
 if auto_mode
 	result_tweets.take(N).each{|tw|
+
 		if allowlist.include? tw.user.id #or true
 			sleep 10
 			t = (if tw.retweet?
