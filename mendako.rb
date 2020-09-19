@@ -66,12 +66,13 @@ result_tweets.take(N).each{|tw|
 puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 
 ### create image
+BASE_W = 1024
+BASE_H = 1448
+SIZE = 1024
+NEW_ICON_X = [-146, -48, 50, 148]
+
 4.times{|page|
 	image_url = image_uri[page]
-
-	BASE_W = 1024
-	BASE_H = 1448
-	SIZE = 1024
 
 	image = MiniMagick::Image.open 'base.png'
 	image.resize "#{BASE_W}x#{BASE_H}!"
@@ -117,8 +118,7 @@ puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 		_1.pointsize 30
 		_1.draw "text #{pos} '#{text}'"
 	}
-
-	NEW_ICON_X = [-146, -48, 50, 148]
+	
 	4.times{|i|
 		next if !is_new[i]
 		image.combine_options{
