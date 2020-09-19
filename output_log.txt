@@ -1,4 +1,0 @@
-query: from:daily_mendako filter:images
-allowlist: [1118339375299850241]
-
-image_uri: https://pbs.twimg.com/media/Ehq_cQ7UMAAe__s.png?format=jpg&name=orig
