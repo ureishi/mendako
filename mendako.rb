@@ -36,8 +36,6 @@ result_tweets = twitter_client.search(
 	result_type: 'recent'
 )
 
-puts
-
 $image_uri = []
 $count_new = 0
 
@@ -46,13 +44,10 @@ result_tweets.take(N).each{|tw|
 	if allowlist.include? tw.user.id
 		sleep 10
 		t = twitter_client.status tw, tweet_mode: 'extended'
-
-		if t.media?
-			t.media.each{
-				$image_uri << "#{_1.media_uri_https}?name=orig"
-				$count_new += 1 if first
-			}
-		end
+		t.media.each{
+			$image_uri << "#{_1.media_uri_https}?name=orig"
+			$count_new += 1 if first
+		} if t.media?
 	end
 	
 	break if $image_uri.length >= 4
@@ -86,13 +81,11 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		_1.fill '#fcece1'
 		_1.draw "rectangle #{pos_nw} #{pos_se}"
 	}
-
-	image_base = image
-
+	
 	image_over = MiniMagick::Image.open image_url ? image_url : 'default.png'
 	image_over.resize "#{SIZE}x#{SIZE}"
 
-	image = image_base.composite(image_over){
+	image = image.composite(image_over){
 		_1.compose 'Over'
 		_1.gravity 'Center'
 		_1.geometry "+0+0"
