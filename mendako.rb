@@ -70,17 +70,14 @@ NEW_ICON_X = [-146, -48, 50, 148]
 
 4.times{|page|
 	image_url = $image_uri[page]
-
-	image = MiniMagick::Image.open 'base.png'
-	image.resize "#{BASE_W}x#{BASE_H}!"
-	image.format 'png'
-
-	image.combine_options{
-		pos_nw = '0, 0'
-		pos_se = "#{BASE_W}, #{BASE_H}"
-		_1.fill '#fcece1'
-		_1.draw "rectangle #{pos_nw} #{pos_se}"
+	
+	MiniMagick::Tool::Convert.new{|c|
+		c.size "#{BASE_W}x#{BASE_H}"
+		c << 'canvas:#fcece1'
+		c << 'base.png'
 	}
+	
+	image = MiniMagick::Image.open 'base.png'
 	
 	image_over = MiniMagick::Image.open image_url ? image_url : 'default.png'
 	image_over.resize "#{SIZE}x#{SIZE}"
