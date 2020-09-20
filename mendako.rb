@@ -74,7 +74,7 @@ MiniMagick::Tool::Convert.new{|c|
 	c << 'base.png'
 }
 
-base_image = MiniMagick::Image
+image = MiniMagick::Image
 .open('base.png')
 .combine_options{
 	pos = '0, 30'
