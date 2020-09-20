@@ -26,7 +26,7 @@ query = 'from:daily_mendako filter:images'
 puts "query: #{query}"
 
 allowlist = [1118339375299850241]
-puts "allowlist: #{allowlist}"
+puts "allowlist:\n\t#{allowlist.join "\n\t"}"
 
 N = 10
 
