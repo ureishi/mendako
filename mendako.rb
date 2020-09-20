@@ -81,7 +81,7 @@ MiniMagick::Tool::Convert.new{|c|
 	.open('base.png')
 	.composite(
 		MiniMagick::Image
-		.open(image_url ? image_url : 'not_found.png')
+		.open(image_url || 'not_found.png')
 		.resize("#{SIZE}x#{SIZE}")
 	){
 		_1.compose 'Over'
