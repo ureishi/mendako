@@ -77,18 +77,24 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		c << 'base.png'
 	}
 	
-	image = MiniMagick::Image.open 'base.png'
-	
-	image_over = MiniMagick::Image.open image_url ? image_url : 'default.png'
-	image_over.resize "#{SIZE}x#{SIZE}"
-
-	image = image.composite(image_over){
+	image = MiniMagick::Image
+	.open('base.png')
+	.combine_options{
+		pos_nw = '0, 0'
+		pos_se = "#{BASE_W}, #{BASE_H}"
+		_1.fill '#fcece1'
+		_1.draw "rectangle #{pos_nw} #{pos_se}"
+	}
+	.composite(
+		MiniMagick::Image
+		.open(image_url ? image_url : 'default.png')
+		.resize("#{SIZE}x#{SIZE}")
+	){
 		_1.compose 'Over'
 		_1.gravity 'Center'
 		_1.geometry "+0+0"
 	}
-
-	image.combine_options{
+	.combine_options{
 		pos = '0, 30'
 		text = 'まいにちめんだこ'
 		_1.font './.font/memoir-round.otf'
@@ -99,8 +105,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		_1.strokewidth 3
 		_1.draw "text #{pos} '#{text}'"
 	}
-
-	image.combine_options{
+	.combine_options{
 		pos = '55, 160'
 		text = '@daily_mendako'
 		_1.font '.font/Noto_Sans_JP/NotoSansJP-Regular.otf'
@@ -109,10 +114,15 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		_1.pointsize 30
 		_1.draw "text #{pos} '#{text}'"
 	}
+	.combine_options{
+		pos_nw = "0, #{BASE_H - 88*2}"
+		pos_se = "#{BASE_W}, #{BASE_H}"
+		_1.fill '#ffc575'
+		_1.draw "rectangle #{pos_nw} #{pos_se}"
+	}
 	
 	$count_new.times{|i|
 		image.combine_options{
-			#pos = "#{NEW_ICON_X[i]}, 625"
 			pos = "#{NEW_ICON_X[i]*2}, 536"
 			text = 'NEW!'
 			_1.font './.font/memoir-round.otf'
@@ -122,14 +132,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 			_1.draw "text #{pos} '#{text}'"
 		}
 	}
-
-	image.combine_options{
-		pos_nw = "0, #{BASE_H - 88*2}"
-		pos_se = "#{BASE_W}, #{BASE_H}"
-		_1.fill '#ffc575'
-		_1.draw "rectangle #{pos_nw} #{pos_se}"
-	}
-
+	
 	image.write "public/mendako#{page}.png"
 	puts "created: mendako#{page}.png"
 }
