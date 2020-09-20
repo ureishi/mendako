@@ -38,8 +38,8 @@ result_tweets = twitter_client.search(
 
 puts
 
-$count_new = 0
 $image_uri = []
+$count_new = 0
 
 first = true
 result_tweets.take(N).each{|tw|
@@ -50,7 +50,7 @@ result_tweets.take(N).each{|tw|
 		if t.media?
 			t.media.each{
 				$image_uri << "#{_1.media_uri_https}?name=orig"
-				count_new += 1 if first
+				$count_new += 1 if first
 			}
 		end
 	end
