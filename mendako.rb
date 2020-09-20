@@ -79,12 +79,6 @@ MiniMagick::Tool::Convert.new{|c|
 	
 	image = MiniMagick::Image
 	.open('base.png')
-	.combine_options{
-		pos_nw = '0, 0'
-		pos_se = "#{BASE_W}, #{BASE_H}"
-		_1.fill '#fcece1'
-		_1.draw "rectangle #{pos_nw} #{pos_se}"
-	}
 	.composite(
 		MiniMagick::Image
 		.open(image_url ? image_url : 'not_found.png')
