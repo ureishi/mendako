@@ -14,11 +14,11 @@ ENVIRONMENT = {
 
 $client
 def twitter_client
-	return $client ||= Twitter::REST::Client.new{|config|
-		config.consumer_key = ENVIRONMENT[:TWITTER_CONSUMER_KEY]
-		config.consumer_secret = ENVIRONMENT[:TWITTER_CONSUMER_SECRET]
-		config.access_token = ENVIRONMENT[:TWITTER_ACCESS_TOKEN]
-		config.access_token_secret = ENVIRONMENT[:TWITTER_ACCESS_TOKEN_SECRET]
+	$client ||= Twitter::REST::Client.new{
+		_1.consumer_key = ENVIRONMENT[:TWITTER_CONSUMER_KEY]
+		_1.consumer_secret = ENVIRONMENT[:TWITTER_CONSUMER_SECRET]
+		_1.access_token = ENVIRONMENT[:TWITTER_ACCESS_TOKEN]
+		_1.access_token_secret = ENVIRONMENT[:TWITTER_ACCESS_TOKEN_SECRET]
 	}
 end
 
@@ -68,10 +68,10 @@ BASE_H = 1448
 SIZE = 1000
 NEW_ICON_X = [-146, -48, 50, 148]
 
-MiniMagick::Tool::Convert.new{|c|
-	c.size "#{BASE_W}x#{BASE_H}"
-	c << 'canvas:#fcece1'
-	c << 'base.png'
+MiniMagick::Tool::Convert.new{
+	_1.size "#{BASE_W}x#{BASE_H}"
+	_1 << 'canvas:#fcece1'
+	_1 << 'base.png'
 }
 
 image = MiniMagick::Image
