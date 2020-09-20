@@ -68,14 +68,14 @@ BASE_H = 1448
 SIZE = 1000
 NEW_ICON_X = [-146, -48, 50, 148]
 
-4.times{|page|
-	image_url = $image_uri[page]
-	
-	MiniMagick::Tool::Convert.new{|c|
-		c.size "#{BASE_W}x#{BASE_H}"
-		c << 'canvas:#fcece1'
-		c << 'base.png'
-	}
+MiniMagick::Tool::Convert.new{|c|
+	c.size "#{BASE_W}x#{BASE_H}"
+	c << 'canvas:#fcece1'
+	c << 'base.png'
+}
+
+4.times{|p|
+	image_url = $image_uri[p]
 	
 	image = MiniMagick::Image
 	.open('base.png')
@@ -133,8 +133,8 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		}
 	}
 	
-	image.write "public/mendako#{page}.png"
-	puts "created: mendako#{page}.png"
+	image.write "public/mendako#{p}.png"
+	puts "created: mendako#{p}.png"
 }
 
 ### optimize
