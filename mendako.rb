@@ -87,7 +87,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 
 	image_base = image
 
-	image_over = MiniMagick::Image.open image_url
+	image_over = MiniMagick::Image.open image_url ? image_url : 'default.png'
 	image_over.resize "#{SIZE}x#{SIZE}"
 
 	image = image_base.composite(image_over){
