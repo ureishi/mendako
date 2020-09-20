@@ -3,6 +3,8 @@ require 'net/https'
 require 'twitter'
 require 'uri'
 
+### get image from twitter
+puts "get image..."
 ENVIRONMENT = {
 	TWITTER_CONSUMER_KEY: ARGV[0],
 	TWITTER_CONSUMER_SECRET: ARGV[1],
@@ -20,16 +22,10 @@ def twitter_client
 	}
 end
 
-def get_orig_image_uri s
-	"#{s}?name=orig"
-end
-
-query = File.open('query.txt'){_1.gets}.chomp
+query = 'from:daily_mendako filter:images'
 puts "query: #{query}"
 
-allowlist = File.open('allowlist.txt'){|f|
-	f.each_line.map{|l| l.split.first.to_i}
-}
+allowlist = [1118339375299850241]
 puts "allowlist: #{allowlist}"
 
 N = 10
@@ -42,8 +38,8 @@ result_tweets = twitter_client.search(
 
 puts
 
-count_new = 0
-image_uri = []
+$count_new = 0
+$image_uri = []
 
 first = true
 result_tweets.take(N).each{|tw|
@@ -53,26 +49,32 @@ result_tweets.take(N).each{|tw|
 
 		if t.media?
 			t.media.each{
-				image_uri << (get_orig_image_uri _1.media_uri_https)
+				$image_uri << "#{_1.media_uri_https}?name=orig"
 				count_new += 1 if first
 			}
 		end
 	end
 	
-	break if image_uri.length >= 4
+	break if $image_uri.length >= 4
 	first = false
 }
 
-puts "image_uri:\n\t#{image_uri.join "\n\t"}"
+puts "image_uri:\n\t#{$image_uri.join "\n\t"}"
+
+### create directory
+puts "create directory..."
+Dir.mkdir 'public' unless Dir.exists? 'public'
+puts "created: public"
 
 ### create image
+puts "create image..."
 BASE_W = 1024
 BASE_H = 1448
 SIZE = 1000
 NEW_ICON_X = [-146, -48, 50, 148]
 
 4.times{|page|
-	image_url = image_uri[page]
+	image_url = $image_uri[page]
 
 	image = MiniMagick::Image.open 'base.png'
 	image.resize "#{BASE_W}x#{BASE_H}!"
@@ -118,7 +120,7 @@ NEW_ICON_X = [-146, -48, 50, 148]
 		_1.draw "text #{pos} '#{text}'"
 	}
 	
-	count_new.times{|i|
+	$count_new.times{|i|
 		image.combine_options{
 			#pos = "#{NEW_ICON_X[i]}, 625"
 			pos = "#{NEW_ICON_X[i]*2}, 536"
@@ -139,4 +141,12 @@ NEW_ICON_X = [-146, -48, 50, 148]
 	}
 
 	image.write "public/mendako#{page}.png"
+	puts "created: mendako#{page}.png"
 }
+
+### optimize
+puts "optimize"
+`pngquant --force --ext .png --speed 1 public/mendako*.png`
+`advpng -z -4 -i 10 public/mendako*.png`
+
+puts "finished"
