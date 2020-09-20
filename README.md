@@ -1,4 +1,4 @@
-https://ureishi.github.io/mendako/mendako0.jpg <br>
-https://ureishi.github.io/mendako/mendako1.jpg <br>
-https://ureishi.github.io/mendako/mendako2.jpg <br>
-https://ureishi.github.io/mendako/mendako3.jpg
+https://ureishi.github.io/mendako/mendako0.png <br>
+https://ureishi.github.io/mendako/mendako1.png <br>
+https://ureishi.github.io/mendako/mendako2.png <br>
+https://ureishi.github.io/mendako/mendako3.png
