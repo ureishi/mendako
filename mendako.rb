@@ -12,7 +12,6 @@ ENVIRONMENT = {
 	TWITTER_ACCESS_TOKEN_SECRET: ARGV[3]
 }
 
-$client
 def twitter_client
 	$client ||= Twitter::REST::Client.new{
 		_1.consumer_key = ENVIRONMENT[:TWITTER_CONSUMER_KEY]
