@@ -3,6 +3,8 @@ require 'net/https'
 require 'twitter'
 require 'uri'
 
+puts `ruby --version`
+
 ### get image from twitter
 puts "get image..."
 ENVIRONMENT = {
