@@ -6,7 +6,7 @@ require 'uri'
 puts `ruby --version`
 
 ### get image from twitter
-puts "get image..."
+puts 'get image...'
 ENVIRONMENT = {
 	TWITTER_CONSUMER_KEY: ARGV[0],
 	TWITTER_CONSUMER_SECRET: ARGV[1],
@@ -58,12 +58,12 @@ result_tweets.take(N).each{|tw|
 puts "image_uri:\n\t#{$image_uri.join "\n\t"}"
 
 ### create directory
-puts "create directory..."
+puts 'create directory...'
 Dir.mkdir 'public' unless Dir.exists? 'public'
-puts "created: public"
+puts 'created: public'
 
 ### create image
-puts "create image..."
+puts 'create image...'
 BASE_W = 1024
 BASE_H = 1448
 SIZE = 1000
@@ -117,7 +117,7 @@ $count_new.times{|i|
 }
 
 image.write 'base.png'
-puts "created: base.png"
+puts 'created: base.png'
 
 4.times{|p|
 	image = MiniMagick::Image
@@ -137,8 +137,8 @@ puts "created: base.png"
 }
 
 ### optimize
-puts "optimize"
+puts 'optimize'
 `pngquant --force --ext .png --speed 1 public/mendako*.png`
 `advpng -z -4 -i 10 public/mendako*.png`
 
-puts "finished"
+puts 'finished'
