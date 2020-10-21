@@ -37,8 +37,8 @@ result_tweets = twitter_client.search(
 	result_type: 'recent'
 )
 
-$image_uri = []
-$count_new = 0
+image_uri = []
+count_new = 0
 
 first = true
 result_tweets.take(N).each{|tw|
@@ -46,16 +46,16 @@ result_tweets.take(N).each{|tw|
 		sleep 10
 		t = twitter_client.status tw, tweet_mode: 'extended'
 		t.media.each{
-			$image_uri << "#{_1.media_uri_https}?name=orig"
-			$count_new += 1 if first
+			image_uri << "#{_1.media_uri_https}?name=orig"
+			count_new += 1 if first
 		} if t.media?
 	end
 	
-	break if $image_uri.length >= 4
+	break if image_uri.length >= 4
 	first = false
 }
 
-puts "image_uri:\n\t#{$image_uri.join "\n\t"}"
+puts "image_uri:\n\t#{image_uri.join "\n\t"}"
 
 ### create directory
 puts 'create directory...'
@@ -104,7 +104,7 @@ image = MiniMagick::Image
 	_1.draw "rectangle #{pos_nw} #{pos_se}"
 }
 
-$count_new.times{|i|
+count_new.times{|i|
 	image.combine_options{
 		pos = "#{NEW_ICON_X[i]*2}, 536"
 		text = 'NEW!'
@@ -119,12 +119,12 @@ $count_new.times{|i|
 image.write 'base.png'
 puts 'created: base.png'
 
-4.times{|p|
+image_uri.length.times{|p|
 	image = MiniMagick::Image
 	.open('base.png')
 	.composite(
 		MiniMagick::Image
-		.open($image_uri[p] || 'not_found.png')
+		.open(image_uri[p] || 'not_found.png')
 		.resize("#{SIZE}x#{SIZE}")
 	){
 		_1.compose 'Over'
