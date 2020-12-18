@@ -38,7 +38,7 @@ result_tweets = twitter_client.search(
 )
 
 image_uri = []
-create_at = []
+created_at = []
 count_new = 0
 
 first = true
@@ -48,7 +48,7 @@ result_tweets.take(N).each{|tw|
 		t = twitter_client.status tw, tweet_mode: 'extended'
 		t.media.each{
 			image_uri << "#{_1.media_uri_https}?name=orig"
-			create_at << t.create_at
+			created_at << t.created_at
 			count_new += 1 if first
 		} if t.media?
 	end
@@ -126,7 +126,7 @@ image_uri.length.times{|p|
 	}
 	.combine_options{
 		pos = '55, 160'
-		text = "@daily_mendako\t(#{create_at[p].strftime("%Y年%m月%d日 %H時%M分%S秒 JST")})"
+		text = "@daily_mendako\t(#{created_at[p].strftime("%Y年%m月%d日 %H時%M分%S秒 JST")})"
 		_1.font '.font/Noto_Sans_JP/NotoSansJP-Regular.otf'
 		_1.fill '#000000'
 		_1.gravity 'NorthEast'
