@@ -125,11 +125,11 @@ image_uri.length.times{|p|
 		_1.geometry "+0+0"
 	}
 	.combine_options{
-		pos = '55, 160'
+		pos = '0, 160'
 		text = "@daily_mendako\t(#{created_at[p].strftime("%Y年%m月%d日 %H時%M分%S秒 JST")})"
 		_1.font '.font/Noto_Sans_JP/NotoSansJP-Regular.otf'
 		_1.fill '#000000'
-		_1.gravity 'NorthEast'
+		_1.gravity 'North'
 		_1.pointsize 30
 		_1.draw "text #{pos} '#{text}'"
 	}
