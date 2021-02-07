@@ -97,17 +97,18 @@ image = MiniMagick::Image
 	_1.draw "rectangle #{pos_nw} #{pos_se}"
 }
 
-count_new.times{|i|
-	image.combine_options{
-		pos = "#{NEW_ICON_X[i]*2}, 536"
-		text = 'NEW!'
-		_1.font './.font/memoir-round.otf'
-		_1.fill '#a31d12'
-		_1.gravity 'Center'
-		_1.pointsize 25
-		_1.draw "text #{pos} '#{text}'"
-	}
-}
+# 2021-02-07 位置がおかしくなる現象が出たので一旦無効化(ライブラリのバグ？)
+#count_new.times{|i|
+#	image.combine_options{
+#		pos = "#{NEW_ICON_X[i]*2}, 536"
+#		text = 'NEW!'
+#		_1.font './.font/memoir-round.otf'
+#		_1.fill '#a31d12'
+#		_1.gravity 'Center'
+#		_1.pointsize 25
+#		_1.draw "text #{pos} '#{text}'"
+#	}
+#}
 
 image.write 'base.png'
 puts 'created: base.png'
